@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./venv/bin/python src/chunk_pdfs.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(./venv/bin/python src/inspect_chunks.py)",
+      "Bash(./venv/bin/pip list *)",
+      "Bash(./venv/bin/python src/embed_chunks.py)",
+      "Bash(./venv/bin/python src/ask.py \"What are the rules about noise at night in Brussels?\")",
+      "Bash(./venv/bin/python src/ask.py \"Welke boete riskeer ik voor sluikstort?\")",
+      "Bash(./venv/bin/python src/ask.py \"How has the Brussels LEZ affected low-income households?\")",
+      "Bash(./venv/bin/python src/diagnose_dumping.py)",
+      "Bash(./venv/bin/python src/benchmark.py)",
+      "Bash(./venv/bin/pip install *)",
+      "Bash(lsof -nP -iTCP -sTCP:LISTEN)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:7860)",
+      "Bash(ps -p 47254 -o pid,stat,command)",
+      "Bash(timeout 15 ./venv/bin/python src/app.py)",
+      "Bash(./venv/bin/python -c \"import inspect, gradio; print\\(gradio.__version__\\); print\\(inspect.signature\\(gradio.ChatInterface.__init__\\)\\)\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(./venv/bin/pip freeze *)",
+      "Bash(git mv *)"
+    ]
+  }
+}

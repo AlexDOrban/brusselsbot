@@ -1,0 +1,8 @@
+.env
+venv/
+.venv/
+chroma_db/
+*.pdf
+__pycache__/
+.DS_Store
+data/query_log.jsonl
