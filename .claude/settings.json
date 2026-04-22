@@ -22,7 +22,21 @@
       "Bash(./venv/bin/pip freeze *)",
       "Bash(git mv *)",
       "Bash(git checkout *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(sw_vers -productVersion)",
+      "Bash(venv/bin/pip uninstall *)",
+      "Bash(venv/bin/pytest tests/test_decision_gates.py -v)",
+      "Bash(venv/bin/python src/generate_decision.py)",
+      "Bash(venv/bin/python -)",
+      "Bash(venv/bin/python scripts/build_benchmark_50.py)",
+      "Bash(venv/bin/python scripts/draft_ground_truth.py)",
+      "Bash(tee /tmp/draft.log)",
+      "Bash(venv/bin/python scripts/review_benchmark.py)",
+      "Bash(venv/bin/python scripts/review_summary.py)",
+      "Bash(venv/bin/python scripts/find_chunks_for_question.py)",
+      "Bash(venv/bin/python scripts/apply_source_fixes.py)",
+      "Bash(git check-ignore *)",
+      "Bash(venv/bin/python -c \"import json; json.load\\(open\\('.claude/settings.json'\\)\\); json.load\\(open\\('.claude/settings.local.json'\\)\\); print\\('both valid JSON'\\)\")"
     ]
   }
 }

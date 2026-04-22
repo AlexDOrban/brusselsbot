@@ -10,3 +10,6 @@ data/query_log.jsonl
 # Throwaway review/debug dumps
 data/_*.txt
 data/fix_candidates.txt
+
+# Machine-local Claude Code permissions
+.claude/settings.local.json
