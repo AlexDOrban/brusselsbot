@@ -1,0 +1,573 @@
+{
+  "per_question": [
+    {
+      "id": "Q1_noise_en",
+      "question": "What are the rules about noise at night in Brussels?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 88
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_174",
+        "chunk_177",
+        "chunk_180",
+        "chunk_175",
+        "chunk_182",
+        "chunk_178",
+        "chunk_2",
+        "chunk_246",
+        "chunk_103",
+        "chunk_155"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_174",
+          "source": "police_regs",
+          "article_number": 88,
+          "language": "fr"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_177",
+          "source": "police_regs",
+          "article_number": 88,
+          "language": "nl"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_180",
+          "source": "police_regs",
+          "article_number": 91,
+          "language": "fr"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "Q2_muziek_nl",
+      "question": "Mag ik 's nachts muziek maken op straat?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 88,
+          "language": "nl"
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_174",
+        "chunk_177",
+        "chunk_182",
+        "chunk_93",
+        "chunk_97",
+        "chunk_94",
+        "chunk_87",
+        "chunk_88",
+        "chunk_178",
+        "chunk_103"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_174",
+          "source": "police_regs",
+          "article_number": 88,
+          "language": "fr"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_177",
+          "source": "police_regs",
+          "article_number": 88,
+          "language": "nl"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_182",
+          "source": "police_regs",
+          "article_number": 91,
+          "language": "nl"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 2,
+      "hit_at": {
+        "1": false,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "Q3_sluikstort_nl",
+      "question": "Welke boete riskeer ik voor sluikstort?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 4
+        },
+        {
+          "source": "police_regs",
+          "article_number": 14
+        },
+        {
+          "source": "police_regs",
+          "article_number": 25
+        },
+        {
+          "source": "police_regs",
+          "article_number": 29
+        },
+        {
+          "source": "police_regs",
+          "article_number": 63
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_49",
+        "chunk_79",
+        "chunk_243",
+        "chunk_144",
+        "chunk_7",
+        "chunk_29",
+        "chunk_25",
+        "chunk_151",
+        "chunk_78",
+        "chunk_87"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_49",
+          "source": "police_regs",
+          "article_number": 25,
+          "language": "nl"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_79",
+          "source": "police_regs",
+          "article_number": 40,
+          "language": "nl"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_243",
+          "source": "police_regs",
+          "article_number": 122,
+          "language": "nl"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0,
+      "sluikstort_top5": true
+    },
+    {
+      "id": "Q4_lez_social",
+      "question": "How has the Brussels LEZ affected low-income households?",
+      "gold_sources": [
+        {
+          "source": "ieep"
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_251",
+        "chunk_248",
+        "chunk_249",
+        "chunk_253",
+        "chunk_244",
+        "chunk_252",
+        "chunk_254",
+        "chunk_245",
+        "chunk_246",
+        "chunk_250"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_251",
+          "source": "ieep",
+          "article_number": null,
+          "language": "en"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_248",
+          "source": "ieep",
+          "article_number": null,
+          "language": "en"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_249",
+          "source": "ieep",
+          "article_number": null,
+          "language": "en"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "Q5_bruxellair",
+      "question": "What is the Bruxell'Air bonus?",
+      "gold_sources": [
+        {
+          "source": "ieep"
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_249",
+        "chunk_250",
+        "chunk_253",
+        "chunk_254",
+        "chunk_244",
+        "chunk_251",
+        "chunk_247",
+        "chunk_2",
+        "chunk_252",
+        "chunk_246"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_249",
+          "source": "ieep",
+          "article_number": null,
+          "language": "en"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_250",
+          "source": "ieep",
+          "article_number": null,
+          "language": "en"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_253",
+          "source": "ieep",
+          "article_number": null,
+          "language": "en"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "Q6_grue_fr",
+      "question": "Quelles sont les règles pour l'installation d'une grue?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 54,
+          "language": "fr"
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_106",
+        "chunk_107",
+        "chunk_108",
+        "chunk_135",
+        "chunk_176",
+        "chunk_203",
+        "chunk_170",
+        "chunk_120",
+        "chunk_115",
+        "chunk_156"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_106",
+          "source": "police_regs",
+          "article_number": 54,
+          "language": "fr"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_107",
+          "source": "police_regs",
+          "article_number": 54,
+          "language": "nl"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_108",
+          "source": "police_regs",
+          "article_number": 55,
+          "language": "fr"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "Q7_trash_sidewalk",
+      "question": "Can I put a trash container on the sidewalk?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 28
+        },
+        {
+          "source": "police_regs",
+          "article_number": 29
+        },
+        {
+          "source": "police_regs",
+          "article_number": 30
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_36",
+        "chunk_40",
+        "chunk_57",
+        "chunk_56",
+        "chunk_110",
+        "chunk_58",
+        "chunk_29",
+        "chunk_61",
+        "chunk_124",
+        "chunk_26"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_36",
+          "source": "police_regs",
+          "article_number": 19,
+          "language": "fr"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_40",
+          "source": "police_regs",
+          "article_number": 19,
+          "language": "nl"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_57",
+          "source": "police_regs",
+          "article_number": 30,
+          "language": "fr"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 3,
+      "hit_at": {
+        "1": false,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "id": "Q8_ev_fleet",
+      "question": "What electric vehicle incentives are available for business fleets?",
+      "gold_sources": [
+        {
+          "source": "leaseplan"
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_259",
+        "chunk_258",
+        "chunk_257",
+        "chunk_260",
+        "chunk_261",
+        "chunk_262",
+        "chunk_256",
+        "chunk_253",
+        "chunk_251",
+        "chunk_248"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_259",
+          "source": "leaseplan",
+          "article_number": null,
+          "language": "en"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_258",
+          "source": "leaseplan",
+          "article_number": null,
+          "language": "en"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_257",
+          "source": "leaseplan",
+          "article_number": null,
+          "language": "en"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "Q9_e40_oos",
+      "question": "What is the fine for speeding on the E40 highway?",
+      "gold_sources": [],
+      "retrieved_chunk_ids": [
+        "chunk_5",
+        "chunk_7",
+        "chunk_241",
+        "chunk_88",
+        "chunk_111",
+        "chunk_112",
+        "chunk_243",
+        "chunk_177",
+        "chunk_64",
+        "chunk_66"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_5",
+          "source": "police_regs",
+          "article_number": 4,
+          "language": "fr"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_7",
+          "source": "police_regs",
+          "article_number": 4,
+          "language": "nl"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_241",
+          "source": "police_regs",
+          "article_number": 122,
+          "language": "fr"
+        }
+      ],
+      "out_of_scope": true
+    },
+    {
+      "id": "Q10_alarm",
+      "question": "Can my neighbour's alarm ring all night?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 97
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_192",
+        "chunk_187",
+        "chunk_193",
+        "chunk_191",
+        "chunk_174",
+        "chunk_183",
+        "chunk_177",
+        "chunk_134",
+        "chunk_181",
+        "chunk_66"
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_192",
+          "source": "police_regs",
+          "article_number": 97,
+          "language": "fr"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_187",
+          "source": "police_regs",
+          "article_number": 96,
+          "language": "fr"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_193",
+          "source": "police_regs",
+          "article_number": 97,
+          "language": "nl"
+        }
+      ],
+      "out_of_scope": false,
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    }
+  ],
+  "aggregate": {
+    "config": "2A_rerank_only",
+    "hybrid": false,
+    "rerank": true,
+    "in_scope_count": 9,
+    "hit_at_1": 0.7777777777777778,
+    "hit_at_3": 1.0,
+    "hit_at_5": 1.0,
+    "hit_at_10": 1.0,
+    "mrr": 0.8703703703703703,
+    "out_of_scope": [
+      {
+        "id": "Q9_e40_oos",
+        "question": "What is the fine for speeding on the E40 highway?",
+        "top1_chunk_id": "chunk_5"
+      }
+    ]
+  }
+}

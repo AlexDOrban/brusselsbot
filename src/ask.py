@@ -3,14 +3,12 @@ import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
-import chromadb
-from openai import OpenAI
 from anthropic import Anthropic
 
+sys.path.insert(0, str(Path(__file__).parent))
+from retrieval import hybrid_retrieve
+
 ROOT = Path(__file__).parent.parent
-CHROMA_PATH = ROOT / "chroma_db"
-COLLECTION_NAME = "brussels_regulations"
-EMBED_MODEL = "text-embedding-3-small"
 CLAUDE_MODEL = "claude-sonnet-4-5"
 TOP_K = 5
 
@@ -34,9 +32,10 @@ Rules:
 """
 
 
-def format_context(docs, metas, dists):
+def format_context(results):
     blocks = []
-    for i, (doc, md, dist) in enumerate(zip(docs, metas, dists), start=1):
+    for i, r in enumerate(results, start=1):
+        md = r["metadata"]
         src = md.get("source", "")
         parts = [f"language: {md.get('language', '')}"] if md.get("language") else []
         if md.get("article_number") not in (None, "", 0):
@@ -46,21 +45,25 @@ def format_context(docs, metas, dists):
         src_line = f"Source: {src}"
         if parts:
             src_line += " (" + ", ".join(parts) + ")"
+        dd = r.get("dense_distance")
+        dist_str = f"{dd:.4f}" if dd is not None else "n/a"
+        rrf_str = f"{r['rrf_score']:.4f}"
         block = (
             f"[Source {i}]\n"
             f"{src_line}\n"
             f"Page: {md.get('page', '')}\n"
-            f"Distance: {dist:.4f}\n"
-            f"Text: {doc}"
+            f"Dense distance: {dist_str}  RRF: {rrf_str}\n"
+            f"Text: {r['text']}"
         )
         blocks.append(block)
     return "\n\n".join(blocks)
 
 
-def print_sources(metas, dists):
+def print_sources(results):
     print("\n\n" + "-" * 70)
     print("Sources:")
-    for i, (md, dist) in enumerate(zip(metas, dists), start=1):
+    for i, r in enumerate(results, start=1):
+        md = r["metadata"]
         src = md.get("source", "")
         page = md.get("page", "")
         art = md.get("article_number", "")
@@ -70,24 +73,19 @@ def print_sources(metas, dists):
             line += f" ({lang})"
         if art not in (None, "", 0):
             line += f" Article {art}"
-        line += f" — page {page} — distance {dist:.4f}"
+        dd = r.get("dense_distance")
+        dist_str = f"{dd:.4f}" if dd is not None else "n/a"
+        line += f" — page {page} — dense {dist_str} — rrf {r['rrf_score']:.4f}"
         print(line)
 
 
-def ask(question, openai_client, anthropic_client, collection):
+def ask(question, anthropic_client):
     print("=" * 70)
     print(f"Q: {question}")
     print("=" * 70)
 
-    q_emb = openai_client.embeddings.create(
-        model=EMBED_MODEL, input=[question]
-    ).data[0].embedding
-    results = collection.query(query_embeddings=[q_emb], n_results=TOP_K)
-    docs = results["documents"][0]
-    metas = results["metadatas"][0]
-    dists = results["distances"][0]
-
-    context = format_context(docs, metas, dists)
+    results = hybrid_retrieve(question, k=TOP_K)
+    context = format_context(results)
     user_msg = (
         f"Question: {question}\n\n"
         f"Context chunks:\n\n{context}\n\n"
@@ -103,22 +101,18 @@ def ask(question, openai_client, anthropic_client, collection):
         for text in stream.text_stream:
             print(text, end="", flush=True)
 
-    print_sources(metas, dists)
+    print_sources(results)
     print()
 
 
 def main():
     load_dotenv(ROOT / ".env")
-    openai_key = os.getenv("OPENAI_API_KEY")
     anthropic_key = os.getenv("ANTHROPIC_API_KEY")
-    if not openai_key or not anthropic_key:
-        print("ERROR: OPENAI_API_KEY and ANTHROPIC_API_KEY required in .env")
+    if not anthropic_key:
+        print("ERROR: ANTHROPIC_API_KEY required in .env")
         sys.exit(1)
 
-    openai_client = OpenAI(api_key=openai_key)
     anthropic_client = Anthropic(api_key=anthropic_key)
-    chroma = chromadb.PersistentClient(path=str(CHROMA_PATH))
-    collection = chroma.get_collection(COLLECTION_NAME)
 
     if len(sys.argv) > 1:
         question = " ".join(sys.argv[1:])
@@ -128,7 +122,7 @@ def main():
         print("No question provided.")
         sys.exit(1)
 
-    ask(question, openai_client, anthropic_client, collection)
+    ask(question, anthropic_client)
 
 
 if __name__ == "__main__":
