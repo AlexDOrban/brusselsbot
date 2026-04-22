@@ -20,7 +20,9 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(./venv/bin/pip freeze *)",
-      "Bash(git mv *)"
+      "Bash(git mv *)",
+      "Bash(git checkout *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
