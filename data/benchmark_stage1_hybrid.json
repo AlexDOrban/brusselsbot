@@ -1,0 +1,472 @@
+{
+  "per_question": [
+    {
+      "question": "What are the rules about noise at night in Brussels?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 88
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.47609013319015503,
+          "rrf_score": 0.03177805800756621
+        },
+        {
+          "rank": 2,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.5109468698501587,
+          "rrf_score": 0.029138513513513514
+        },
+        {
+          "rank": 3,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.4949944019317627,
+          "rrf_score": 0.028083267871170464
+        }
+      ],
+      "first_gold_rank": 6,
+      "hit_at": {
+        "1": false,
+        "3": false,
+        "5": false,
+        "10": true
+      },
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "question": "Mag ik 's nachts muziek maken op straat?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 88,
+          "language": "nl"
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "police_regs",
+          "article_number": 88,
+          "language": "nl",
+          "dense_distance": 0.541006863117218,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "rank": 2,
+          "source": "police_regs",
+          "article_number": 96,
+          "language": "nl",
+          "dense_distance": 0.6374615430831909,
+          "rrf_score": 0.028006267136701922
+        },
+        {
+          "rank": 3,
+          "source": "police_regs",
+          "article_number": 78,
+          "language": "nl",
+          "dense_distance": 0.6446561217308044,
+          "rrf_score": 0.025645240835114255
+        }
+      ],
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Welke boete riskeer ik voor sluikstort?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 4
+        },
+        {
+          "source": "police_regs",
+          "article_number": 14
+        },
+        {
+          "source": "police_regs",
+          "article_number": 25
+        },
+        {
+          "source": "police_regs",
+          "article_number": 29
+        },
+        {
+          "source": "police_regs",
+          "article_number": 63
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "police_regs",
+          "article_number": 45,
+          "language": "fr",
+          "dense_distance": 0.4992554187774658,
+          "rrf_score": 0.029910714285714284
+        },
+        {
+          "rank": 2,
+          "source": "police_regs",
+          "article_number": 14,
+          "language": "nl",
+          "dense_distance": 0.5102806687355042,
+          "rrf_score": 0.029418126757516764
+        },
+        {
+          "rank": 3,
+          "source": "police_regs",
+          "article_number": 58,
+          "language": "nl",
+          "dense_distance": 0.5335714817047119,
+          "rrf_score": 0.025
+        }
+      ],
+      "first_gold_rank": 2,
+      "hit_at": {
+        "1": false,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question": "How has the Brussels LEZ affected low-income households?",
+      "gold_sources": [
+        {
+          "source": "ieep"
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.3166964054107666,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "rank": 2,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.32021278142929077,
+          "rrf_score": 0.0315136476426799
+        },
+        {
+          "rank": 3,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.34978997707366943,
+          "rrf_score": 0.030621785881252923
+        }
+      ],
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is the Bruxell'Air bonus?",
+      "gold_sources": [
+        {
+          "source": "ieep"
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.39968836307525635,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "rank": 2,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.4535664916038513,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "rank": 3,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.524829626083374,
+          "rrf_score": 0.03149801587301587
+        }
+      ],
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Quelles sont les règles pour l'installation d'une grue?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 54,
+          "language": "fr"
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "police_regs",
+          "article_number": 54,
+          "language": "fr",
+          "dense_distance": 0.3301456570625305,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "rank": 2,
+          "source": "police_regs",
+          "article_number": 59,
+          "language": "fr",
+          "dense_distance": 0.5336113572120667,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "rank": 3,
+          "source": "police_regs",
+          "article_number": 62,
+          "language": "fr",
+          "dense_distance": 0.5932340025901794,
+          "rrf_score": 0.029206349206349208
+        }
+      ],
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Can I put a trash container on the sidewalk?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 28
+        },
+        {
+          "source": "police_regs",
+          "article_number": 29
+        },
+        {
+          "source": "police_regs",
+          "article_number": 30
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "rank": 2,
+          "source": "police_regs",
+          "article_number": 29,
+          "language": "fr",
+          "dense_distance": 0.5128989219665527,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "rank": 3,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": null,
+          "rrf_score": 0.016129032258064516
+        }
+      ],
+      "first_gold_rank": 2,
+      "hit_at": {
+        "1": false,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question": "What electric vehicle incentives are available for business fleets?",
+      "gold_sources": [
+        {
+          "source": "leaseplan"
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "leaseplan",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.43149054050445557,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "rank": 2,
+          "source": "leaseplan",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.46223485469818115,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "rank": 3,
+          "source": "leaseplan",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.4693799614906311,
+          "rrf_score": 0.03128054740957967
+        }
+      ],
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What is the fine for speeding on the E40 highway?",
+      "gold_sources": [],
+      "out_of_scope": true,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "ieep",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": 0.6404696702957153,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "rank": 2,
+          "source": "police_regs",
+          "article_number": 4,
+          "language": "nl",
+          "dense_distance": 0.624850869178772,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "rank": 3,
+          "source": "leaseplan",
+          "article_number": null,
+          "language": "en",
+          "dense_distance": null,
+          "rrf_score": 0.016129032258064516
+        }
+      ],
+      "top1_dense_distance": 0.6404696702957153
+    },
+    {
+      "question": "Can my neighbour's alarm ring all night?",
+      "gold_sources": [
+        {
+          "source": "police_regs",
+          "article_number": 97
+        }
+      ],
+      "out_of_scope": false,
+      "top3": [
+        {
+          "rank": 1,
+          "source": "police_regs",
+          "article_number": 97,
+          "language": "nl",
+          "dense_distance": 0.5497770309448242,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "rank": 2,
+          "source": "police_regs",
+          "article_number": 96,
+          "language": "nl",
+          "dense_distance": 0.5734537839889526,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "rank": 3,
+          "source": "police_regs",
+          "article_number": 96,
+          "language": "fr",
+          "dense_distance": 0.48162347078323364,
+          "rrf_score": 0.028949545078577336
+        }
+      ],
+      "first_gold_rank": 1,
+      "hit_at": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "reciprocal_rank": 1.0
+    }
+  ],
+  "aggregate": {
+    "mode": "hybrid_rrf_k60",
+    "in_scope_count": 9,
+    "hit_at_1": 0.6666666666666666,
+    "hit_at_3": 0.8888888888888888,
+    "hit_at_5": 0.8888888888888888,
+    "hit_at_10": 1.0,
+    "mrr": 0.7962962962962963,
+    "out_of_scope": [
+      {
+        "question": "What is the fine for speeding on the E40 highway?",
+        "top1_dense_distance": 0.6404696702957153,
+        "top1_source": "ieep",
+        "top1_article": null
+      }
+    ]
+  }
+}
