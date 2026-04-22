@@ -1,0 +1,64 @@
+{"id": "Q6_grue_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q11_alarme_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q12_trottoir_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_38 (art 21) is about shaking dusty objects, not sidewalk cleaning", "action": "edit"}
+{"id": "Q13_feu_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_158 (art 81 snow) and chunk_91 (art 47 tourist transport) unrelated to garden fires; art 43 is the correct base", "action": "edit"}
+{"id": "Q14_chantier_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q15_demenage_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q16_chien_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q17_deposantclandestin_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q18_affichage_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_78 (art 40) covers rental advertising, not poster affichage", "action": "edit"}
+{"id": "Q19_taxi_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_91 (art 47) is about tourist transport, not immobilized vehicles", "action": "edit"}
+{"id": "Q2_muziek_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q3_sluikstort_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q20_alarm_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q21_verhuizing_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q22_voetpad_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_42 (art 21) is about shaking dusty objects, not sidewalk snow removal", "action": "edit"}
+{"id": "Q23_werf_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_34 (art 17) is about merchants keeping surroundings clean, not construction sites", "action": "edit"}
+{"id": "Q24_hond_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q25_afvalzak_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_52 (art 26) covers water runoff, not household waste disposal", "action": "edit"}
+{"id": "Q26_gezondheid_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_59 (art 30) concerns non-household waste mgmt, not municipal closure of unhealthy housing", "action": "edit"}
+{"id": "Q27_vuur_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q1_noise_en", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q4_lez_social", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q5_bruxellair", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q8_ev_fleet", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q10_alarm", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q7_trash_sidewalk", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q28_crane_en", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q29_fireworks_en", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q30_lez_enforcement", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q31_lp_modalshift", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q9_e40_oos", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q32_tax_oos", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q33_parking_oos", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q34_eu_emissions_oos", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q35_customs_oos", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q36_noise_and_construction_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q37_dog_and_dumping_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q38_party_noise_sanction_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q39_cleaning_snow_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_42 (art 21) is about shaking dusty objects, not snow clearing", "action": "edit"}
+{"id": "Q40_alarm_and_noise_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q41_waste_and_moving_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q42_crane_and_sidewalk_en", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunks 38/42 (art 21 dust) not relevant to crane-on-sidewalk-for-move", "action": "edit"}
+{"id": "Q43_sanctions_lez_en", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q44_fire_and_smoke_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunk_158 (art 81 snow) unrelated to fire/barbecue smoke", "action": "edit"}
+{"id": "Q45_dog_park_sanction_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q46_fr_to_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q47_nl_to_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunks 74/75/78 cover posters and rental ads, not street sales (straatverkopen)", "action": "edit"}
+{"id": "Q48_en_to_fr", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q49_en_to_nl", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["wrong_expected_sources"], "notes": "chunks 21/24 (art 11/12) are general police compliance rules, not rules about demonstrations", "action": "edit"}
+{"id": "Q50_fr_to_en_ieep", "reviewed_at": "2026-04-22T14:04:05+00:00", "flags": ["ok"], "notes": "", "action": "ok"}
+{"id": "Q18_affichage_fr", "reviewed_at": "2026-04-22T14:11:56+00:00", "flags": ["ok"], "notes": "False-positive ws flag overturned after find_chunks review — current sources chunk_74 (art 38) and chunk_75 (art 39) are correct per top dense candidates", "action": "ok"}
+{"id": "Q12_trottoir_fr", "reviewed_at": "2026-04-22T14:13:48+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_38', 'chunk_39'] → ['chunk_39', 'chunk_45']; ground truth redrafted", "action": "fixed"}
+{"id": "Q13_feu_fr", "reviewed_at": "2026-04-22T14:13:53+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_158', 'chunk_91'] → ['chunk_64']; ground truth redrafted", "action": "fixed"}
+{"id": "Q22_voetpad_nl", "reviewed_at": "2026-04-22T14:13:56+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_42', 'chunk_43'] → ['chunk_161']; ground truth redrafted", "action": "fixed"}
+{"id": "Q23_werf_nl", "reviewed_at": "2026-04-22T14:14:01+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_107', 'chunk_34'] → ['chunk_49', 'chunk_131']; ground truth redrafted", "action": "fixed"}
+{"id": "Q25_afvalzak_nl", "reviewed_at": "2026-04-22T14:14:06+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_55', 'chunk_52'] → ['chunk_55']; ground truth redrafted", "action": "fixed"}
+{"id": "Q39_cleaning_snow_nl", "reviewed_at": "2026-04-22T14:14:12+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_42', 'chunk_43', 'chunk_7'] → ['chunk_161', 'chunk_7']; ground truth redrafted", "action": "fixed"}
+{"id": "Q42_crane_and_sidewalk_en", "reviewed_at": "2026-04-22T14:14:19+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_106', 'chunk_124', 'chunk_38', 'chunk_107', 'chunk_127', 'chunk_42'] → ['chunk_108', 'chunk_106']; ground truth redrafted", "action": "fixed"}
+{"id": "Q44_fire_and_smoke_fr", "reviewed_at": "2026-04-22T14:14:27+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_82', 'chunk_158'] → ['chunk_64', 'chunk_149']; ground truth redrafted", "action": "fixed"}
+{"id": "Q47_nl_to_fr", "reviewed_at": "2026-04-22T14:14:39+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_74', 'chunk_75', 'chunk_78'] → ['chunk_103']; ground truth redrafted", "action": "fixed"}
+{"id": "Q49_en_to_nl", "reviewed_at": "2026-04-22T14:14:44+00:00", "flags": ["sources_fixed"], "notes": "sources ['chunk_21', 'chunk_24'] → ['chunk_84', 'chunk_83']; ground truth redrafted", "action": "fixed"}
+{"id": "Q23_werf_nl", "reviewed_at": "2026-04-22T14:19:53+00:00", "flags": ["recategorized_to_oos", "opus_self_flagged_unfaithful"], "action": "rewrite", "notes": "Recategorized after Opus flagged corpus mismatch in regenerated draft. Construction-site regulations live in RRU/chantiers ordonnance, not municipal police regs. Same pattern as Q26_gezondheid_nl."}
+{"id": "Q19_taxi_fr", "reviewed_at": "2026-04-22T14:24:03+00:00", "flags": ["question_rewritten", "sources_fixed"], "action": "rewrite", "notes": "Restored taxi-scope intent per ID. Question drift: 'Quelles règles s'appliquent aux voitures immobilisées sur la voie publique?' → 'Quelles règles s'appliquent au transport de personnes non autorisé sur la voie publique?'. Sources ['chunk_91'] → ['chunk_91']. Draft regenerated on chunk_91."}
+{"id": "Q26_gezondheid_nl", "reviewed_at": "2026-04-22T14:24:03+00:00", "flags": ["recategorized_to_oos"], "action": "rewrite", "notes": "Recategorized in_scope_nl → out_of_scope. Dwelling-closure-for-health rules live in Code bruxellois du logement, not municipal police regs. Same precedent as Q23_werf_nl. Sources ['chunk_47', 'chunk_59'] → []. Draft replaced with OOS_DRAFT['nl']."}
