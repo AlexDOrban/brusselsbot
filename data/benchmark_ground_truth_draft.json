@@ -1,0 +1,634 @@
+{
+  "drafts": [
+    {
+      "id": "Q6_grue_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Quelles sont les règles pour l'installation d'une grue?",
+      "expected_sources": [
+        "chunk_106"
+      ],
+      "ground_truth_answer_draft": "L'installation d'une grue est soumise à l'autorisation de l'autorité compétente, sans préjudice des prescriptions en matière d'urbanisme, d'environnement et de protection du travail (Article 54, Règlement de police). Avant toute mise en service, une photocopie du procès-verbal de vérification rédigé par un organisme agréé doit être envoyée à l'autorité compétente dans un délai de trois semaines avant le montage ou remontage, et un plan du chantier indiquant les caractéristiques de l'engin (encombrement, rayon de giration) doit être produit (Article 54, Règlement de police). Les grues doivent avoir une assise stable au sol pour éviter tout renversement ; les grues-tours sur rails doivent en outre être fixées à ceux-ci, avec un chemin de roulement solidement maintenu au sol (Article 54, Règlement de police). Au fur et à mesure de l'élévation du bâtiment, la grue doit être intégrée à la construction ou solidement amarrée en plusieurs endroits, et les utilisateurs doivent veiller à ce que sa stabilité ne soit pas réduite en position giratoire et qu'elle n'ait pas de mouvement désordonné (Article 54, Règlement de police).",
+      "error": null
+    },
+    {
+      "id": "Q11_alarme_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Quelles sont les obligations pour les systèmes d'alarme sonores à Bruxelles?",
+      "expected_sources": [
+        "chunk_192",
+        "chunk_187"
+      ],
+      "ground_truth_answer_draft": "À Bruxelles, les systèmes d'alarme, qu'ils équipent des immeubles ou des véhicules (dans l'espace public comme privé), ne peuvent en aucun cas incommoder le voisinage. Le propriétaire, copropriétaire, titulaire d'un droit réel, locataire ou responsable du véhicule dont l'alarme s'est déclenchée doit y mettre fin dans les plus brefs délais (Article 96 et Article 97, Règlement de police). Si la personne concernée ne se manifeste pas dans les 30 minutes suivant le déclenchement, les services de police peuvent prendre les mesures nécessaires pour faire cesser la nuisance, aux frais, risques et périls du contrevenant (Article 96 et Article 97, Règlement de police).",
+      "error": null
+    },
+    {
+      "id": "Q12_trottoir_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Qui est responsable du nettoyage du trottoir devant mon immeuble?",
+      "expected_sources": [
+        "chunk_39",
+        "chunk_45"
+      ],
+      "ground_truth_answer_draft": "L'entretien et le nettoyage des trottoirs, passages et accotements bordant un immeuble incombent solidairement au propriétaire, copropriétaire, à tout titulaire d'un droit réel sur l'immeuble, au locataire, au concierge, au portier, au gardien ainsi qu'aux personnes chargées de l'entretien quotidien des lieux (Article 22, Règlement de police). Cette obligation couvre notamment le ramassage des feuilles mortes, le balayage et le déneigement/déverglaçage afin d'assurer un passage sûr pour les piétons (Article 24, Règlement de police). À défaut, le nettoyage peut être exécuté d'office par l'autorité compétente aux frais du propriétaire ou de l'occupant (Article 22, Règlement de police).",
+      "error": null
+    },
+    {
+      "id": "Q13_feu_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Est-il permis d'allumer un feu ouvert dans son jardin?",
+      "expected_sources": [
+        "chunk_64"
+      ],
+      "ground_truth_answer_draft": "Non, sauf autorisation de l'autorité compétente, il est interdit de faire du feu en extérieur en dehors des immeubles bâtis, y compris pour détruire par combustion des déchets verts ou ménagers organiques (Article 33, §2, Police Regulations). Seuls les barbecues sont autorisés dans les jardins privés, à condition d'utiliser des fourneaux fixes ou mobiles adaptés, de ne pas représenter un risque pour la sécurité et de ne pas incommoder le voisinage (Article 33, §3, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q14_chantier_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Quelles autorisations sont nécessaires pour un chantier sur la voie publique?",
+      "expected_sources": [
+        "chunk_108",
+        "chunk_37"
+      ],
+      "ground_truth_answer_draft": "Sauf autorisation de l'autorité compétente, et sans préjudice des dispositions légales et réglementaires en matière d'urbanisme, toute occupation privative de l'espace public (au niveau, au-dessus ou au-dessous du sol) est interdite (Article 55, Règlement de police). Pour l'utilisation d'une grue à tour notamment, une demande d'autorisation doit être introduite, accompagnée de la preuve d'une assurance en responsabilité civile de l'entrepreneur pour les dommages causés aux tiers, ainsi que d'une description du dispositif empêchant l'accès aux personnes non autorisées (Article 55, Règlement de police). Une liste des personnes responsables (entrepreneur, ingénieur, technicien, membre du personnel de la grue) joignables jour et nuit doit également être déposée au commissariat de police le plus proche et affichée à l'extérieur du bureau de chantier (Article 55, Règlement de police).",
+      "error": null
+    },
+    {
+      "id": "Q15_demenage_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Quelles sont les règles pour un déménagement à Bruxelles?",
+      "expected_sources": [
+        "chunk_124"
+      ],
+      "ground_truth_answer_draft": "Lorsque l'évacuation d'objets ou de matériaux par les portes, baies ou fenêtres donnant sur la voie publique est indispensable, notamment en cas de déménagement, toute précaution utile doit être prise pour soustraire à la circulation des usagers la partie de la voie publique rendue dangereuse, et pour régler cette circulation afin d'éviter tout accident (Article 63, Police Regulations). Il est par ailleurs interdit de jeter des objets par ces mêmes issues (Article 63, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q16_chien_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Que dois-je faire des excréments de mon chien dans l'espace public?",
+      "expected_sources": [
+        "chunk_226"
+      ],
+      "ground_truth_answer_draft": "Le maître ou le gardien de l'animal est tenu de ramasser de manière adéquate les déjections de son chien sur l'espace public, sauf aux endroits spécialement aménagés à cet effet (Article 115, Règlement de police). Il doit disposer à tout moment d'au moins un sac destiné à ce ramassage, à présenter sur demande d'une personne habilitée ou de la police, et ne peut déposer le sac contenant les excréments que dans les poubelles publiques (Article 115, Règlement de police). Seuls les malvoyants ou aveugles accompagnés de leur chien-guide sont dispensés de cette obligation (Article 115, Règlement de police).",
+      "error": null
+    },
+    {
+      "id": "Q17_deposantclandestin_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Quelle sanction pour un dépôt clandestin de déchets?",
+      "expected_sources": [
+        "chunk_48",
+        "chunk_26",
+        "chunk_5"
+      ],
+      "ground_truth_answer_draft": "Le règlement de police interdit les dépôts clandestins de déchets sur les terrains bâtis ou non-bâtis, obligeant tout propriétaire, locataire ou occupant à veiller à leur enlèvement (Article 25, Règlement de police). Les contrevenants s'exposent à une amende administrative ne pouvant excéder 500 euros pour les majeurs ou 175 euros pour les mineurs, ainsi qu'à d'éventuelles sanctions complémentaires telles que la suspension ou l'abrogation d'une autorisation, voire la fermeture administrative d'un établissement (Article 4, Règlement de police). Le contrevenant doit en outre régulariser la situation sans délai, à défaut de quoi l'autorité compétente peut y pourvoir à ses frais (Article 4, Règlement de police).",
+      "error": null
+    },
+    {
+      "id": "Q18_affichage_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Puis-je coller des affiches sur un mur public?",
+      "expected_sources": [
+        "chunk_74",
+        "chunk_75",
+        "chunk_78"
+      ],
+      "ground_truth_answer_draft": "Non, il est interdit d'apposer ou de coller des affiches, tracts, autocollants, papillons ou flèches directionnelles à tout endroit de l'espace public (ou visible de celui-ci) sans avoir obtenu au préalable l'autorisation de l'autorité compétente et du propriétaire des lieux, et sans respecter les conditions fixées dans l'acte d'autorisation (Article 38, Police Regulations). Les affiches apposées en infraction devront être enlevées, à défaut de quoi l'autorité procédera d'office à leur enlèvement aux frais du contrevenant (Article 38, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q19_taxi_fr",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "question": "Quelles règles s'appliquent au transport de personnes non autorisé sur la voie publique?",
+      "expected_sources": [
+        "chunk_91"
+      ],
+      "ground_truth_answer_draft": "Sur l'espace public, les activités de transport de personnes visant une clientèle de touristes de passage ou organisées dans le cadre d'activités festives ou commerciales sur le territoire de la commune, avec embarquement de personnes sur ce territoire, sont interdites sauf autorisation de l'autorité compétente. Cette interdiction s'applique aux véhicules motorisés ou non, aux attelages et aux animaux montés, mais ne concerne pas les transports publics en commun, les taxis ni les voitures avec chauffeur (Article 47, Règlement de police).",
+      "error": null
+    },
+    {
+      "id": "Q2_muziek_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Mag ik 's nachts muziek maken op straat?",
+      "expected_sources": [
+        "chunk_177"
+      ],
+      "ground_truth_answer_draft": "Nee, 's nachts muziek maken op straat die de rust van de buurt verstoort is verboden. De Politieverordening verbiedt geluidshinder die de sereniteit van de buurt verstoort en waarvan de intensiteit het omgevingsgeluid overschrijdt, zowel op de openbare weg als in voertuigen (Artikel 88, Politieverordening). Hoewel artikel 88 specifiek de dagperiode (7u–22u) regelt, geldt dit onverminderd andere reglementeringen inzake lawaai en versterkte muziek, die ook 's nachts van toepassing zijn (Artikel 88, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q3_sluikstort_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Welke boete riskeer ik voor sluikstort?",
+      "expected_sources": [
+        "chunk_49",
+        "chunk_29",
+        "chunk_7",
+        "chunk_58"
+      ],
+      "ground_truth_answer_draft": "Sluikstorten is verboden op onbebouwde terreinen en gebouwen in opbouw, en iedere eigenaar, huurder of bewoner is verantwoordelijk om erop toe te zien dat er niet wordt gesluikstort en dat afval wordt verwijderd (Artikel 25, Politieverordening). Overtredingen van het reglement kunnen worden bestraft met een administratieve geldboete van maximaal 500 euro voor meerderjarigen of 175 euro voor minderjarigen (Artikel 4, Politieverordening). Daarnaast moet de overtreder de situatie onmiddellijk regulariseren, zo niet kan de bevoegde overheid dit doen op kosten en risico van de overtreder (Artikel 4, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q20_alarm_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Wat zijn de regels voor alarmsystemen op gebouwen?",
+      "expected_sources": [
+        "chunk_193",
+        "chunk_191"
+      ],
+      "ground_truth_answer_draft": "Gebouwen die uitgerust zijn met een alarmsysteem mogen in geen geval de buurt storen. De eigenaar, mede-eigenaar, houder van een zakelijk recht of huurder van het gebouw waarvan het alarm afgaat, moet dit zo snel mogelijk beëindigen. Indien de betrokkene niet binnen 30 minuten na het afgaan van het alarm ter plaatse is, mogen de politiediensten de nodige maatregelen nemen om de hinder te beëindigen op kosten en risico van de overtreder (Artikel 97, Politieverordening). Een alarm wordt gedefinieerd als een apparaat of systeem dat waarschuwt bij inbraak of de aanwezigheid meldt van een indringer, rook of enig ander voorwerp, gebeurtenis of risico (Artikel 97, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q21_verhuizing_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Welke toestemming heb ik nodig voor een verhuizing?",
+      "expected_sources": [
+        "chunk_127"
+      ],
+      "ground_truth_answer_draft": "Voor een verhuizing waarbij voorwerpen of materialen via deuren, openingen of vensters die uitgeven op de openbare weg verwijderd moeten worden, moet elke voorzorgsmaatregel genomen worden om het gevaarlijke gedeelte van de openbare weg af te schermen van het wegverkeer en de weggebruikers, en om het verkeer zodanig te regelen dat elk ongeval wordt voorkomen (Artikel 63, Politieverordening). De verordening specificeert in dit artikel geen expliciete voorafgaande toestemming, maar legt wel de verplichting op om de nodige veiligheidsmaatregelen te treffen.",
+      "error": null
+    },
+    {
+      "id": "Q22_voetpad_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Wie moet het voetpad voor mijn woning sneeuwvrij houden?",
+      "expected_sources": [
+        "chunk_161"
+      ],
+      "ground_truth_answer_draft": "Op met sneeuw of ijzel bedekte trottoirs moet het voetpad volledig of over twee derde van de breedte (met een minimum van 1,50 meter) geruimd of slipvrij gemaakt worden om een veilige doorgang voor voetgangers te garanderen. De sneeuw moet op en aan de rand van het voetpad worden gelegd en mag niet op de rijweg worden gegooid (Artikel 81, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q23_werf_nl",
+      "category": "out_of_scope",
+      "language": "nl",
+      "question": "Welke regels gelden voor een bouwwerf op de openbare weg?",
+      "expected_sources": [],
+      "ground_truth_answer_draft": "Deze vraag valt buiten het bereik van de beschikbare bronnen (politieverordening Brussel, IEEP-casestudy LEZ, Leaseplan LEZ-whitepaper). Ik kan deze vraag niet beantwoorden op basis van dit corpus.",
+      "error": null
+    },
+    {
+      "id": "Q24_hond_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Mag mijn hond loslopen in een park in Brussel?",
+      "expected_sources": [
+        "chunk_223"
+      ],
+      "ground_truth_answer_draft": "Nee, in de openbare ruimte mag u uw hond niet laten rondzwerven: het is verboden om welk dier dan ook vrij te laten rondlopen (Artikel 112, Politieverordening). Agressieve honden of honden die kunnen bijten moeten bovendien een muilband dragen (Artikel 112, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q25_afvalzak_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Wanneer mag ik mijn huisvuilzak buiten zetten?",
+      "expected_sources": [
+        "chunk_55"
+      ],
+      "ground_truth_answer_draft": "Huisvuilzakken mogen pas worden buitengezet volgens de voorschriften van het Agentschap Net Brussel of een andere erkende instelling, die het tijdstip, de plaats en het type recipiënt bepalen (Artikel 28, Politieverordening). De zakken of recipiënten moeten afgesloten zijn zodat ze geen hinder, vervuiling of dieren aantrekken. Indien het afval niet op het geplande tijdstip wordt opgehaald, moet u het terug binnenhalen en/of binnen 24 uur de reinheidsdienst contacteren (Artikel 28, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q26_gezondheid_nl",
+      "category": "out_of_scope",
+      "language": "nl",
+      "question": "Kan de gemeente een ongezonde woning sluiten?",
+      "expected_sources": [],
+      "ground_truth_answer_draft": "Deze vraag valt buiten het bereik van de beschikbare bronnen (politieverordening Brussel, IEEP-casestudy LEZ, Leaseplan LEZ-whitepaper). Ik kan deze vraag niet beantwoorden op basis van dit corpus.",
+      "error": null
+    },
+    {
+      "id": "Q27_vuur_nl",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "question": "Mag ik bladeren verbranden in mijn tuin?",
+      "expected_sources": [
+        "chunk_85"
+      ],
+      "ground_truth_answer_draft": "Nee, het verbranden van bladeren of ander afval in open lucht is in principe verboden. Hoewel de aangeleverde bron deze specifieke activiteit niet letterlijk vermeldt, bevat artikel 43 een algemeen verbod op activiteiten in de openbare ruimte of op privé-eigendommen die de openbare veiligheid in het gedrang kunnen brengen, zoals het blootstellen of achterlaten van zaken die ongezonde uitwasemingen kunnen veroorzaken (Artikel 43, Politieverordening). Een voorafgaande toelating van de bevoegde overheid kan vereist zijn.",
+      "error": null
+    },
+    {
+      "id": "Q1_noise_en",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "What are the rules about noise at night in Brussels?",
+      "expected_sources": [
+        "chunk_174",
+        "chunk_177"
+      ],
+      "ground_truth_answer_draft": "Article 88 of the Police Regulations addresses daytime noise nuisance between 7:00 and 22:00, prohibiting sounds (including animal cries) that disturb the tranquility of the neighborhood and exceed the ambient noise level of public space (Article 88, Police Regulations). This covers noise from private properties, publicly accessible establishments, and vehicles on public roads, with the vehicle's registered owner presumed liable if the driver cannot be identified (Article 88, Police Regulations). The provided sources only cover the daytime regime (7:00–22:00) and do not specify the nighttime rules.",
+      "error": null
+    },
+    {
+      "id": "Q4_lez_social",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "How has the Brussels LEZ affected low-income households?",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "ground_truth_answer_draft": "Low-income households in Brussels have been disproportionately affected by the LEZ: areas with the lowest household incomes are also the most exposed to air pollution, and more deprived neighbourhoods tend to have a higher share of non-LEZ compliant cars, though they also benefit from better public transport provision (IEEP report, page 8). Lower-income households and those with more children are more likely to own non-compliant vehicles (IEEP report, page 8). To mitigate these impacts, Brussels introduced accompanying measures such as the Bruxell'Air bonus, which offers higher payments (EUR 1,010) to lower-income residents who deregister their car — in 2022–2024, 59% of bonuses went to lower-income households (IEEP report, pages 6–7). Payment plans for fines and income-linked financial support were also put in place to address equity concerns (IEEP report, pages 3, 11).",
+      "error": null
+    },
+    {
+      "id": "Q5_bruxellair",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "What is the Bruxell'Air bonus?",
+      "expected_sources": [
+        "chunk_249",
+        "chunk_250"
+      ],
+      "ground_truth_answer_draft": "The Bruxell'Air bonus is a complementary measure to the Brussels-Capital Region's Low Emission Zone, introduced in 2006 and relaunched in March 2022, that rewards Brussels residents who permanently deregister their car. Since 2022, it provides EUR 1,010 for lower-income households (and households with a disabled person eligible for a parking card), EUR 705 for middle incomes, and EUR 505 for higher incomes, valid for two years and to be spent on mobility-related purchases such as public transport passes, bicycles, and cycle or car sharing (IEEP report, page 6). Uptake included 2,102 bonuses awarded in 2022 and 1,203 in 2023, with around 59% going to lower-income households (IEEP report, page 6).",
+      "error": null
+    },
+    {
+      "id": "Q8_ev_fleet",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "What electric vehicle incentives are available for business fleets?",
+      "expected_sources": [
+        "chunk_256",
+        "chunk_257",
+        "chunk_258",
+        "chunk_259",
+        "chunk_260",
+        "chunk_261",
+        "chunk_262"
+      ],
+      "ground_truth_answer_draft": "Many European countries offer tax incentives favouring zero-emission vehicles, including high tax breaks and often exemption from road tax to encourage the purchase of e-LCVs, though these subsidies may be phased out over time (Leaseplan whitepaper, page 6). In Norway, the taxation system already makes the TCO of an electric LCV lower than that of a comparable diesel (Leaseplan whitepaper, page 3). More broadly, electric vehicles are exempt from certain taxes in some countries, which reduces the tax share of the total cost of ownership (Leaseplan whitepaper, page 2). Fleets may also benefit indirectly from access to Low Emission Zones where diesels are restricted (Leaseplan whitepaper, page 6).",
+      "error": null
+    },
+    {
+      "id": "Q10_alarm",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "Can my neighbour's alarm ring all night?",
+      "expected_sources": [
+        "chunk_192",
+        "chunk_193"
+      ],
+      "ground_truth_answer_draft": "No. Buildings equipped with an alarm system may in no case disturb the neighbourhood, and the owner, co-owner, holder of a real right or tenant must stop the alarm as quickly as possible. If the person concerned does not respond within 30 minutes of the alarm going off, the police may take the necessary measures to end the nuisance, at the offender's cost and risk (Article 97, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q7_trash_sidewalk",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "Can I put a trash container on the sidewalk?",
+      "expected_sources": [
+        "chunk_54",
+        "chunk_55",
+        "chunk_56",
+        "chunk_57"
+      ],
+      "ground_truth_answer_draft": "Yes, but only under strict conditions. Residents authorized to use approved containers may only put them out in accordance with the prescriptions of Bruxelles-Propreté (timing, location, container type), and the containers must be brought back inside the building immediately after collection and kept clean inside and out (Article 28, Police Regulations). Bags and containers must be placed on the sidewalk or verge along the façade, preferably near the front door of the dwelling, fully visible from the street and without obstructing passage; placing waste in front of neighbors' façades, around trees, flower boxes, glass bins or other public installations is strictly forbidden (Article 30, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q28_crane_en",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "What permits do I need to install a crane on a construction site in Brussels?",
+      "expected_sources": [
+        "chunk_106",
+        "chunk_107"
+      ],
+      "ground_truth_answer_draft": "Installing a crane on a construction site in Brussels requires authorization from the competent authority, without prejudice to regulations on urban planning, environment, and labour protection (Article 54, Police Regulations). Before commissioning, a copy of the verification report drawn up by an approved body must be sent to the competent authority at least three weeks before assembly or reassembly, and a site plan must be provided showing all useful information and the crane's characteristics, including footprint and jib radius (Article 54, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q29_fireworks_en",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "Are fireworks allowed in Brussels?",
+      "expected_sources": [
+        "chunk_82",
+        "chunk_85"
+      ],
+      "ground_truth_answer_draft": "No, the use of fireworks and firecrackers is prohibited in the public space, in places accessible to the public, and on private property, unless authorization has been obtained from the competent authority (Article 43, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q30_lez_enforcement",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "How is the Low Emission Zone enforced in Brussels?",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "ground_truth_answer_draft": "Enforcement of the Brussels-Capital Region LEZ is based on automatic number-plate recognition, using around 350 fixed and mobile cameras that check vehicle licence plates (the camera network is also used by the police and managed by Paradigm) (IEEP report, page 3). Non-compliant vehicles without a valid exemption or day pass incur a EUR 350 fine, capped at one fine per vehicle every three months, with payment plans of up to four monthly instalments available for those who struggle to pay (IEEP report, page 3). When new restrictions come into force (e.g. from 1 January 2025), first-time offenders driving newly prohibited vehicles receive a warning rather than a fine, and Brussels Fiscalité handles fines, contested fines, day passes and derogations (IEEP report, pages 3–4). Compliance reached 99.2% by mid-2023, and in 2023 some 30,499 fines were issued (IEEP report, pages 3–4).",
+      "error": null
+    },
+    {
+      "id": "Q31_lp_modalshift",
+      "category": "in_scope_en",
+      "language": "en",
+      "question": "What does the LeasePlan whitepaper say about modal shift in Belgium?",
+      "expected_sources": [
+        "chunk_256",
+        "chunk_257",
+        "chunk_258",
+        "chunk_259",
+        "chunk_260",
+        "chunk_261",
+        "chunk_262"
+      ],
+      "ground_truth_answer_draft": "The provided LeasePlan whitepaper chunks do not discuss modal shift in Belgium. Belgium is only mentioned once, in a chart showing the number of public electric charging stations per EU country, where Belgium has 1,651 public charging points (Leaseplan whitepaper, page 8). No information on modal shift in Belgium is available in these sources.",
+      "error": null
+    },
+    {
+      "id": "Q9_e40_oos",
+      "category": "out_of_scope",
+      "language": "en",
+      "question": "What is the fine for speeding on the E40 highway?",
+      "expected_sources": [],
+      "ground_truth_answer_draft": "This question falls outside the scope of the available sources (Brussels police regulations, IEEP LEZ case study, Leaseplan LEZ whitepaper). I cannot answer it from this corpus.",
+      "error": null
+    },
+    {
+      "id": "Q32_tax_oos",
+      "category": "out_of_scope",
+      "language": "en",
+      "question": "What is the personal income tax rate for Brussels residents?",
+      "expected_sources": [],
+      "ground_truth_answer_draft": "This question falls outside the scope of the available sources (Brussels police regulations, IEEP LEZ case study, Leaseplan LEZ whitepaper). I cannot answer it from this corpus.",
+      "error": null
+    },
+    {
+      "id": "Q33_parking_oos",
+      "category": "out_of_scope",
+      "language": "en",
+      "question": "How much does a Brussels resident parking permit cost per year?",
+      "expected_sources": [],
+      "ground_truth_answer_draft": "This question falls outside the scope of the available sources (Brussels police regulations, IEEP LEZ case study, Leaseplan LEZ whitepaper). I cannot answer it from this corpus.",
+      "error": null
+    },
+    {
+      "id": "Q34_eu_emissions_oos",
+      "category": "out_of_scope",
+      "language": "en",
+      "question": "What are the EU Euro 7 emission standards?",
+      "expected_sources": [],
+      "ground_truth_answer_draft": "This question falls outside the scope of the available sources (Brussels police regulations, IEEP LEZ case study, Leaseplan LEZ whitepaper). I cannot answer it from this corpus.",
+      "error": null
+    },
+    {
+      "id": "Q35_customs_oos",
+      "category": "out_of_scope",
+      "language": "en",
+      "question": "What documents do I need to import a car from Germany to Belgium?",
+      "expected_sources": [],
+      "ground_truth_answer_draft": "This question falls outside the scope of the available sources (Brussels police regulations, IEEP LEZ case study, Leaseplan LEZ whitepaper). I cannot answer it from this corpus.",
+      "error": null
+    },
+    {
+      "id": "Q36_noise_and_construction_fr",
+      "category": "multi_hop",
+      "language": "fr",
+      "question": "Puis-je faire des travaux bruyants dans mon jardin un dimanche matin?",
+      "expected_sources": [
+        "chunk_174",
+        "chunk_180",
+        "chunk_106"
+      ],
+      "ground_truth_answer_draft": "Les nuisances sonores diurnes produites entre 7h00 et 22h00, de nature à troubler la tranquillité du voisinage et dont l'intensité dépasse le niveau de bruit ambiant de l'espace public, sont interdites, y compris dans les propriétés privées (Article 88, Police Regulations). Par conséquent, des travaux bruyants un dimanche matin dans votre jardin peuvent constituer une infraction s'ils troublent la quiétude du voisinage, sans préjudice des autres réglementations applicables en matière de bruit.",
+      "error": null
+    },
+    {
+      "id": "Q37_dog_and_dumping_fr",
+      "category": "multi_hop",
+      "language": "fr",
+      "question": "Quelle est la différence entre abandonner un déchet et laisser des excréments de chien?",
+      "expected_sources": [
+        "chunk_48",
+        "chunk_226",
+        "chunk_5"
+      ],
+      "ground_truth_answer_draft": "Abandonner un déchet relève de l'interdiction générale de déposer ou laisser des matières, détritus ou objets susceptibles de nuire à la salubrité publique ou à l'environnement, notamment sur les terrains bâtis ou non-bâtis (Article 25, Police Regulations). Laisser des excréments de chien concerne spécifiquement le maître ou gardien de l'animal, qui doit ramasser les déjections sur l'espace public — sauf aux endroits aménagés à cet effet — et disposer en permanence d'un sac à cette fin, les personnes malvoyantes ou aveugles accompagnées de leur chien-guide en étant dispensées (Article 115, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q38_party_noise_sanction_fr",
+      "category": "multi_hop",
+      "language": "fr",
+      "question": "Si j'organise une fête bruyante, quelle sanction je risque et à quelle heure dois-je arrêter?",
+      "expected_sources": [
+        "chunk_174",
+        "chunk_5",
+        "chunk_180"
+      ],
+      "ground_truth_answer_draft": "Les nuisances sonores troublant la tranquillité du voisinage sont interdites entre 7h00 et 22h00 en journée, ce qui implique que la fête doit cesser au plus tard à 22h00 (Article 88, Police Regulations). En cas d'infraction au règlement, vous risquez une amende administrative pouvant aller jusqu'à 500 euros si vous êtes majeur (175 euros si mineur), ainsi que, le cas échéant, une suspension ou abrogation d'autorisation, voire une fermeture administrative de l'établissement (Article 4, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q39_cleaning_snow_nl",
+      "category": "multi_hop",
+      "language": "nl",
+      "question": "Wie moet het voetpad sneeuwvrij maken en wat is de sanctie bij niet-naleving?",
+      "expected_sources": [
+        "chunk_161",
+        "chunk_7"
+      ],
+      "ground_truth_answer_draft": "De bewoners (of gebruikers van het pand) moeten met bladeren, sneeuw of ijzel bedekte trottoirs volledig of over twee derde van de breedte — met een minimum van 1,50 meter — ruimen of slipvrij maken, waarbij de sneeuw aan de rand van het voetpad wordt gelegd en niet op de rijweg mag worden gegooid (Artikel 81, Politieverordening). Bij niet-naleving kan een administratieve geldboete worden opgelegd van maximaal 500 euro voor meerderjarigen of 175 euro voor minderjarigen, en moet de overtreder de situatie onmiddellijk regulariseren; anders laat de bevoegde overheid dit uitvoeren op kosten en risico van de overtreder (Artikel 4, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q40_alarm_and_noise_nl",
+      "category": "multi_hop",
+      "language": "nl",
+      "question": "Wat zijn de regels voor alarmsystemen, en gelden de nachtelijke geluidsregels ook voor alarmen?",
+      "expected_sources": [
+        "chunk_193",
+        "chunk_177",
+        "chunk_191"
+      ],
+      "ground_truth_answer_draft": "Gebouwen en voertuigen die met een alarmsysteem zijn uitgerust, mogen de buurt in geen geval storen; de verantwoordelijke (eigenaar, houder van een zakelijk recht, huurder of bij voertuigen de bestuurder/eigenaar/bewaker) moet het afgaande alarm zo spoedig mogelijk beëindigen (Artikelen 96 en 97, Politieverordening). Indien de betrokkene niet binnen 30 minuten opdaagt, mogen de politiediensten de nodige maatregelen nemen om de hinder te beëindigen op kosten en risico van de overtreder (Artikelen 96 en 97, Politieverordening). Een alarm wordt gedefinieerd als een apparaat of systeem dat waarschuwt bij inbraak of de aanwezigheid van een indringer, rook of enig ander risico (Artikel 97, Politieverordening). De regel over daggeluidshinder tussen 7 en 22 uur in Artikel 88 betreft geluidshinder in het algemeen en is niet specifiek op alarmen gericht; voor alarmen gelden de specifieke bepalingen van Artikelen 96 en 97, die op elk moment van toepassing zijn (Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q41_waste_and_moving_nl",
+      "category": "multi_hop",
+      "language": "nl",
+      "question": "Bij een verhuizing: waar mag ik het afval laten staan en welke toestemming heb ik nodig?",
+      "expected_sources": [
+        "chunk_127",
+        "chunk_55",
+        "chunk_29"
+      ],
+      "ground_truth_answer_draft": "Bij een verhuizing mag huishoudelijk afval enkel worden buitengezet volgens de voorschriften van het Agentschap Net Brussel of een andere erkende instelling, wat betreft tijdstip, plaats en type recipiënt (Artikel 28, Politieverordening). Wanneer het noodzakelijk is om voorwerpen of materialen via deuren, openingen of vensters die op de openbare weg uitgeven te verwijderen — bijvoorbeeld bij een verhuizing — moeten alle voorzorgsmaatregelen worden genomen om het gevaarlijke deel van de openbare weg af te schermen en het verkeer te regelen om ongevallen te voorkomen (Artikel 63, Politieverordening). Het is bovendien verboden om de openbare ruimte te bevuilen of er afval achter te laten (Artikel 14, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q42_crane_and_sidewalk_en",
+      "category": "multi_hop",
+      "language": "en",
+      "question": "If I set up a crane on the sidewalk for a move, which rules do I need to follow?",
+      "expected_sources": [
+        "chunk_108",
+        "chunk_106"
+      ],
+      "ground_truth_answer_draft": "Installing a crane on public space requires prior authorisation from the competent authority, without prejudice to urban planning, environmental and labour protection rules (Article 54, Police Regulations). Before use, a copy of the verification report from an approved body must be sent to the authority at least three weeks before (re)assembly, along with a site plan showing the crane's characteristics, footprint and jib rotation radius (Article 54, Police Regulations). The crane must have a stable base to prevent tipping, be anchored or integrated into the building as it rises, and users must ensure stability during slewing movements (Article 54, Police Regulations). Additionally, privative occupation of public space is generally prohibited without authorisation (Article 55, Police Regulations), and the contractor must hold civil liability insurance, submit contact details of responsible personnel to the nearest police station, secure the base against unauthorised climbing, and remove the crane within eight days after works end (Article 55, Police Regulations).",
+      "error": null
+    },
+    {
+      "id": "Q43_sanctions_lez_en",
+      "category": "multi_hop",
+      "language": "en",
+      "question": "What sanctions apply if I drive a non-compliant vehicle in the Brussels LEZ, and how does this compare to police regulation fines?",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255",
+        "chunk_5"
+      ],
+      "ground_truth_answer_draft": "Driving a non-LEZ compliant vehicle in the Brussels-Capital Region incurs a EUR 350 fine, capped at one fine per vehicle every three months; from 1 January 2025, first-time offenders of newly prohibited vehicles receive a warning before fines apply, and payment plans of up to four monthly instalments are available (IEEP report, page 3). By contrast, administrative fines under the Police Regulations cannot exceed EUR 500 for adults or EUR 175 for minors, and may be accompanied by suspension or abrogation of permits or administrative closure of an establishment (Article 4, Police Regulations). The LEZ fine is therefore a fixed, higher amount targeted specifically at non-compliant vehicle use, while police regulation sanctions are capped lower but encompass a broader range of administrative measures.",
+      "error": null
+    },
+    {
+      "id": "Q44_fire_and_smoke_fr",
+      "category": "multi_hop",
+      "language": "fr",
+      "question": "Puis-je faire un barbecue sur mon balcon, et quelles sont les règles sur la fumée?",
+      "expected_sources": [
+        "chunk_64",
+        "chunk_149"
+      ],
+      "ground_truth_answer_draft": "Les barbecues ne sont autorisés que dans les cours, jardins et terrasses privés, à condition d'utiliser des fourneaux fixes ou mobiles adaptés, de ne pas représenter un risque pour la sécurité et de ne pas incommoder le voisinage (Article 33, §3, Police Regulations). Il est par ailleurs interdit d'incommoder le voisinage par des fumées, odeurs, suie ou émanations quelconques (Article 33, §1, Police Regulations), et les barbecues sont interdits sur l'espace public sauf autorisation (Article 33, §4, Police Regulations). Le règlement ne vise pas explicitement les balcons, mais un barbecue sur un balcon ne serait admissible que s'il respecte ces conditions, notamment l'absence de gêne pour le voisinage.",
+      "error": null
+    },
+    {
+      "id": "Q45_dog_park_sanction_nl",
+      "category": "multi_hop",
+      "language": "nl",
+      "question": "Mag mijn hond loslopen in het park, en wat riskeer ik als hij zijn behoefte doet zonder dat ik opruim?",
+      "expected_sources": [
+        "chunk_223",
+        "chunk_229",
+        "chunk_7"
+      ],
+      "ground_truth_answer_draft": "Nee, honden mogen niet vrij rondlopen in de openbare ruimte: het is verboden om welk dier dan ook te laten rondzwerven (Artikel 112, Politieverordening). Als baasje ben je bovendien verplicht om de uitwerpselen van je hond op gepaste wijze te verwijderen en moet je steeds minstens één zakje bij je hebben, dat je op verzoek van de politie of een gemachtigde persoon moet tonen (Artikel 115, Politieverordening). Bij overtreding riskeer je een administratieve geldboete tot 500 euro (175 euro voor minderjarigen) en moet je de situatie onmiddellijk rechtzetten (Artikel 4, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q46_fr_to_nl",
+      "category": "cross_lingual",
+      "language": "fr",
+      "question": "Quelles sont les règles bruxelloises sur le bruit nocturne? (répondre en français mais les sources sont en néerlandais)",
+      "expected_sources": [
+        "chunk_177",
+        "chunk_182"
+      ],
+      "ground_truth_answer_draft": "À Bruxelles, il est interdit de causer des nuisances sonores de jour, entre 7h et 22h, qui troublent la tranquillité du voisinage et dont l'intensité dépasse le niveau sonore ambiant de l'espace public ; cela vise notamment le bruit dans les propriétés privées, les établissements accessibles au public et les véhicules sur la voie publique (Artikel 88, Politieverordening). En outre, sauf autorisation de l'autorité compétente, les représentations vocales ou instrumentales, l'usage de haut-parleurs et amplificateurs, les parades et la musique foraine sont interdits dans l'espace public, tout comme l'utilisation d'appareils produisant des sons (y compris ultrasoniques) susceptibles de gêner autrui (Artikel 91, Politieverordening). En cas d'infraction, la police peut ordonner au contrevenant de quitter les lieux et saisir administrativement le matériel en cas de refus (Artikel 91, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q47_nl_to_fr",
+      "category": "cross_lingual",
+      "language": "nl",
+      "question": "Welke Brusselse regels gelden voor straatverkopen?",
+      "expected_sources": [
+        "chunk_103"
+      ],
+      "ground_truth_answer_draft": "Op het grondgebied van de stad Brussel en Elsene is het verboden voorbijgangers op de openbare weg aan te klampen buiten schouwburgen, concertzalen, sportplaatsen of ontspanningsplaatsen om hen toegangskaarten te koop aan te bieden (Artikel 53, Politieverordening). Bovendien zijn verkoop en verspreiding, behoudens specifieke toelating van de bevoegde overheid, volledig verboden in een aantal zones: de neutrale zone, de door UNESCO beschermde erfgoedzone rond de Grote Markt, het Congresplein, Poelaertplein, Koningsplein en Onze-Lieve-Vrouw-Voorplein (en 50 meter rondom), op minder dan 50 meter van werkloosheidskantoren, onderwijsinstellingen, eredienstplaatsen en kazernes, in de zone rond het Koning Boudewijnstadion en het Tentoonstellingspark tijdens evenementen, en op de Esplanade Solidarnosc (Artikel 53, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q48_en_to_fr",
+      "category": "cross_lingual",
+      "language": "en",
+      "question": "What are the Brussels rules for installing scaffolding on a construction site?",
+      "expected_sources": [
+        "chunk_106",
+        "chunk_108"
+      ],
+      "ground_truth_answer_draft": "The Brussels Police Regulations primarily address cranes rather than scaffolding directly: installing a crane on a construction site requires authorisation from the competent authority, submission of an inspection report from an approved body at least three weeks before assembly, a site plan showing the crane's characteristics and swing radius, a stable ground base (with tower cranes on rails additionally fixed to them), and progressive anchoring to the building as it rises (Article 54, Police Regulations). Users must also ensure stability during rotation and prevent uncontrolled movements (Article 54, Police Regulations). More generally, any private occupation of public space — at, above or below ground level — by fixed, hung, deposited or abandoned objects is prohibited without authorisation from the competent authority, without prejudice to urban planning rules (Article 55, Police Regulations). The provided sources do not contain specific rules dedicated to scaffolding as such.",
+      "error": null
+    },
+    {
+      "id": "Q49_en_to_nl",
+      "category": "cross_lingual",
+      "language": "en",
+      "question": "Are there Brussels rules about holding a public demonstration?",
+      "expected_sources": [
+        "chunk_84",
+        "chunk_83"
+      ],
+      "ground_truth_answer_draft": "Yes. In Brussels, organising, provoking or taking part in gatherings, demonstrations, riots or processions in public space that may disrupt vehicle traffic or inconvenience users of public space is prohibited without authorisation from the competent authority (Artikel 41, Politieverordening). More broadly, any gathering, demonstration, activity or procession of any kind in public space — or in galleries and passages on private land accessible to the public — requires prior authorisation from the competent authority (Artikel 42, Politieverordening).",
+      "error": null
+    },
+    {
+      "id": "Q50_fr_to_en_ieep",
+      "category": "cross_lingual",
+      "language": "fr",
+      "question": "Comment la zone de basses émissions a-t-elle affecté les ménages modestes à Bruxelles?",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "ground_truth_answer_draft": "La zone de basses émissions bruxelloise a eu des impacts socio-économiques disproportionnés sur les ménages modestes : les zones où les revenus sont les plus bas sont aussi les plus touchées par la pollution de l'air, et les quartiers plus défavorisés comptent une proportion plus élevée de véhicules non conformes à la LEZ, bien qu'ils bénéficient généralement d'une meilleure desserte en transports publics (IEEP report, page 8). Les ménages à faibles revenus et ceux avec davantage d'enfants sont plus susceptibles de posséder des véhicules non conformes (IEEP report, page 8). Pour atténuer ces effets, des mesures d'accompagnement ont été mises en place, notamment la prime Bruxell'Air (1 010 € pour les bas revenus contre 505 € pour les hauts revenus, les ménages à bas revenus représentant 59 % des bénéficiaires), des plans de paiement échelonné des amendes, ainsi qu'un renforcement des transports publics et des alternatives de mobilité (IEEP report, pages 6-7, 11).",
+      "error": null
+    }
+  ]
+}

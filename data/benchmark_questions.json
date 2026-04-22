@@ -1,0 +1,637 @@
+{
+  "questions": [
+    {
+      "id": "Q6_grue_fr",
+      "category": "in_scope_fr",
+      "question": "Quelles sont les règles pour l'installation d'une grue?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_106"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved from original 10"
+    },
+    {
+      "id": "Q11_alarme_fr",
+      "category": "in_scope_fr",
+      "question": "Quelles sont les obligations pour les systèmes d'alarme sonores à Bruxelles?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_192",
+        "chunk_187"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q12_trottoir_fr",
+      "category": "in_scope_fr",
+      "question": "Qui est responsable du nettoyage du trottoir devant mon immeuble?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_39",
+        "chunk_45"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q13_feu_fr",
+      "category": "in_scope_fr",
+      "question": "Est-il permis d'allumer un feu ouvert dans son jardin?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_64"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q14_chantier_fr",
+      "category": "in_scope_fr",
+      "question": "Quelles autorisations sont nécessaires pour un chantier sur la voie publique?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_108",
+        "chunk_37"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q15_demenage_fr",
+      "category": "in_scope_fr",
+      "question": "Quelles sont les règles pour un déménagement à Bruxelles?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_124"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q16_chien_fr",
+      "category": "in_scope_fr",
+      "question": "Que dois-je faire des excréments de mon chien dans l'espace public?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_226"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q17_deposantclandestin_fr",
+      "category": "in_scope_fr",
+      "question": "Quelle sanction pour un dépôt clandestin de déchets?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_48",
+        "chunk_26",
+        "chunk_5"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q18_affichage_fr",
+      "category": "in_scope_fr",
+      "question": "Puis-je coller des affiches sur un mur public?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_74",
+        "chunk_75",
+        "chunk_78"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q19_taxi_fr",
+      "category": "in_scope_fr",
+      "question": "Quelles règles s'appliquent au transport de personnes non autorisé sur la voie publique?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_91"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "",
+      "benchmark_methodology_notes": "Question rewritten during review. Generator had drifted from the original taxi-scope intent (per ID) to 'immobilized cars', a phrasing the corpus does not cover. Restored to the authorized/unauthorized-transport scope that article 47 actually addresses."
+    },
+    {
+      "id": "Q2_muziek_nl",
+      "category": "in_scope_nl",
+      "question": "Mag ik 's nachts muziek maken op straat?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_177"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved"
+    },
+    {
+      "id": "Q3_sluikstort_nl",
+      "category": "in_scope_nl",
+      "question": "Welke boete riskeer ik voor sluikstort?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_49",
+        "chunk_29",
+        "chunk_7",
+        "chunk_58"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved; BM25-critical"
+    },
+    {
+      "id": "Q20_alarm_nl",
+      "category": "in_scope_nl",
+      "question": "Wat zijn de regels voor alarmsystemen op gebouwen?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_193",
+        "chunk_191"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q21_verhuizing_nl",
+      "category": "in_scope_nl",
+      "question": "Welke toestemming heb ik nodig voor een verhuizing?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_127"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q22_voetpad_nl",
+      "category": "in_scope_nl",
+      "question": "Wie moet het voetpad voor mijn woning sneeuwvrij houden?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_161"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q23_werf_nl",
+      "category": "out_of_scope",
+      "question": "Welke regels gelden voor een bouwwerf op de openbare weg?",
+      "language": "nl",
+      "expected_sources": [],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "",
+      "benchmark_methodology_notes": "Recategorized from in_scope_nl to out_of_scope. Construction-site-specific rules for Brussels public works live in the Règlement régional d'urbanisme (RRU) and the regional ordonnance relative aux chantiers en voirie, neither of which is included in this corpus. The municipal police regulations cover only consequential topics (noise, obstruction, dust) via generic articles, not construction activity itself. This was surfaced by Opus self-flagging corpus mismatch ('De bronnen bevatten geen specifieke regels...') in the regenerated draft after the ws-fix pass. Same pattern as Q26_gezondheid_nl."
+    },
+    {
+      "id": "Q24_hond_nl",
+      "category": "in_scope_nl",
+      "question": "Mag mijn hond loslopen in een park in Brussel?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_223"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q25_afvalzak_nl",
+      "category": "in_scope_nl",
+      "question": "Wanneer mag ik mijn huisvuilzak buiten zetten?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_55"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q26_gezondheid_nl",
+      "category": "out_of_scope",
+      "question": "Kan de gemeente een ongezonde woning sluiten?",
+      "language": "nl",
+      "expected_sources": [],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "",
+      "benchmark_methodology_notes": "Recategorized from in_scope_nl to out_of_scope during review. Municipal dwelling-closure-for-health powers are not in the police regulations corpus — they live in the Code bruxellois du logement (regional housing code). Same pattern as Q23_werf_nl (construction sites covered by RRU, not municipal police). Surfaces a generator-side failure mode where plausibly-phrased questions were drafted for topics outside the source corpus."
+    },
+    {
+      "id": "Q27_vuur_nl",
+      "category": "in_scope_nl",
+      "question": "Mag ik bladeren verbranden in mijn tuin?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_85"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q1_noise_en",
+      "category": "in_scope_en",
+      "question": "What are the rules about noise at night in Brussels?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_174",
+        "chunk_177"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved"
+    },
+    {
+      "id": "Q4_lez_social",
+      "category": "in_scope_en",
+      "question": "How has the Brussels LEZ affected low-income households?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved; any IEEP chunk = hit"
+    },
+    {
+      "id": "Q5_bruxellair",
+      "category": "in_scope_en",
+      "question": "What is the Bruxell'Air bonus?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_249",
+        "chunk_250"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved"
+    },
+    {
+      "id": "Q8_ev_fleet",
+      "category": "in_scope_en",
+      "question": "What electric vehicle incentives are available for business fleets?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_256",
+        "chunk_257",
+        "chunk_258",
+        "chunk_259",
+        "chunk_260",
+        "chunk_261",
+        "chunk_262"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved"
+    },
+    {
+      "id": "Q10_alarm",
+      "category": "in_scope_en",
+      "question": "Can my neighbour's alarm ring all night?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_192",
+        "chunk_193"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved"
+    },
+    {
+      "id": "Q7_trash_sidewalk",
+      "category": "in_scope_en",
+      "question": "Can I put a trash container on the sidewalk?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_54",
+        "chunk_55",
+        "chunk_56",
+        "chunk_57"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved; EN query, FR/NL source — kept in_scope_en per task guidance"
+    },
+    {
+      "id": "Q28_crane_en",
+      "category": "in_scope_en",
+      "question": "What permits do I need to install a crane on a construction site in Brussels?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_106",
+        "chunk_107"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q29_fireworks_en",
+      "category": "in_scope_en",
+      "question": "Are fireworks allowed in Brussels?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_82",
+        "chunk_85"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q30_lez_enforcement",
+      "category": "in_scope_en",
+      "question": "How is the Low Emission Zone enforced in Brussels?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q31_lp_modalshift",
+      "category": "in_scope_en",
+      "question": "What does the LeasePlan whitepaper say about modal shift in Belgium?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_256",
+        "chunk_257",
+        "chunk_258",
+        "chunk_259",
+        "chunk_260",
+        "chunk_261",
+        "chunk_262"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q9_e40_oos",
+      "category": "out_of_scope",
+      "question": "What is the fine for speeding on the E40 highway?",
+      "language": "en",
+      "expected_sources": [],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "preserved; federal traffic law"
+    },
+    {
+      "id": "Q32_tax_oos",
+      "category": "out_of_scope",
+      "question": "What is the personal income tax rate for Brussels residents?",
+      "language": "en",
+      "expected_sources": [],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "regional fiscal law, not in corpus"
+    },
+    {
+      "id": "Q33_parking_oos",
+      "category": "out_of_scope",
+      "question": "How much does a Brussels resident parking permit cost per year?",
+      "language": "en",
+      "expected_sources": [],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "municipal fees schedule, not in police regs"
+    },
+    {
+      "id": "Q34_eu_emissions_oos",
+      "category": "out_of_scope",
+      "question": "What are the EU Euro 7 emission standards?",
+      "language": "en",
+      "expected_sources": [],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "EU-level regulation, not in corpus"
+    },
+    {
+      "id": "Q35_customs_oos",
+      "category": "out_of_scope",
+      "question": "What documents do I need to import a car from Germany to Belgium?",
+      "language": "en",
+      "expected_sources": [],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "federal customs, not in corpus"
+    },
+    {
+      "id": "Q36_noise_and_construction_fr",
+      "category": "multi_hop",
+      "question": "Puis-je faire des travaux bruyants dans mon jardin un dimanche matin?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_174",
+        "chunk_180",
+        "chunk_106"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "noise rules + construction hours + site rules"
+    },
+    {
+      "id": "Q37_dog_and_dumping_fr",
+      "category": "multi_hop",
+      "question": "Quelle est la différence entre abandonner un déchet et laisser des excréments de chien?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_48",
+        "chunk_226",
+        "chunk_5"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q38_party_noise_sanction_fr",
+      "category": "multi_hop",
+      "question": "Si j'organise une fête bruyante, quelle sanction je risque et à quelle heure dois-je arrêter?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_174",
+        "chunk_5",
+        "chunk_180"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q39_cleaning_snow_nl",
+      "category": "multi_hop",
+      "question": "Wie moet het voetpad sneeuwvrij maken en wat is de sanctie bij niet-naleving?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_161",
+        "chunk_7"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q40_alarm_and_noise_nl",
+      "category": "multi_hop",
+      "question": "Wat zijn de regels voor alarmsystemen, en gelden de nachtelijke geluidsregels ook voor alarmen?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_193",
+        "chunk_177",
+        "chunk_191"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q41_waste_and_moving_nl",
+      "category": "multi_hop",
+      "question": "Bij een verhuizing: waar mag ik het afval laten staan en welke toestemming heb ik nodig?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_127",
+        "chunk_55",
+        "chunk_29"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q42_crane_and_sidewalk_en",
+      "category": "multi_hop",
+      "question": "If I set up a crane on the sidewalk for a move, which rules do I need to follow?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_108",
+        "chunk_106"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q43_sanctions_lez_en",
+      "category": "multi_hop",
+      "question": "What sanctions apply if I drive a non-compliant vehicle in the Brussels LEZ, and how does this compare to police regulation fines?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255",
+        "chunk_5"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q44_fire_and_smoke_fr",
+      "category": "multi_hop",
+      "question": "Puis-je faire un barbecue sur mon balcon, et quelles sont les règles sur la fumée?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_64",
+        "chunk_149"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q45_dog_park_sanction_nl",
+      "category": "multi_hop",
+      "question": "Mag mijn hond loslopen in het park, en wat riskeer ik als hij zijn behoefte doet zonder dat ik opruim?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_223",
+        "chunk_229",
+        "chunk_7"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": ""
+    },
+    {
+      "id": "Q46_fr_to_nl",
+      "category": "cross_lingual",
+      "question": "Quelles sont les règles bruxelloises sur le bruit nocturne? (répondre en français mais les sources sont en néerlandais)",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_177",
+        "chunk_182"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "FR query, NL expected_sources — forces cross-lingual retrieval"
+    },
+    {
+      "id": "Q47_nl_to_fr",
+      "category": "cross_lingual",
+      "question": "Welke Brusselse regels gelden voor straatverkopen?",
+      "language": "nl",
+      "expected_sources": [
+        "chunk_103"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "NL query, FR sources on sales/display"
+    },
+    {
+      "id": "Q48_en_to_fr",
+      "category": "cross_lingual",
+      "question": "What are the Brussels rules for installing scaffolding on a construction site?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_106",
+        "chunk_108"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "EN query, FR-only sources"
+    },
+    {
+      "id": "Q49_en_to_nl",
+      "category": "cross_lingual",
+      "question": "Are there Brussels rules about holding a public demonstration?",
+      "language": "en",
+      "expected_sources": [
+        "chunk_84",
+        "chunk_83"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "EN query, NL sources on assembly"
+    },
+    {
+      "id": "Q50_fr_to_en_ieep",
+      "category": "cross_lingual",
+      "question": "Comment la zone de basses émissions a-t-elle affecté les ménages modestes à Bruxelles?",
+      "language": "fr",
+      "expected_sources": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "ground_truth_answer": "draft — manual review required",
+      "notes": "FR query, EN-only IEEP sources"
+    }
+  ]
+}
