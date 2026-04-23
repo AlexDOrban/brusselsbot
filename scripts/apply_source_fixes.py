@@ -121,8 +121,20 @@ def main():
 
     log_lines = []
     for key, q, new_sources in resolved_fixes:
-        old = q["expected_sources"]
+        old = list(q["expected_sources"])
         q["expected_sources"] = new_sources
+
+        if set(old) == set(new_sources):
+            print(f"[{q['id']}] sources unchanged, skipping draft regeneration")
+            log_lines.append(json.dumps({
+                "id": q["id"],
+                "reviewed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "flags": ["sources_unchanged", "regeneration_skipped"],
+                "notes": f"sources set unchanged: {old}; skipped draft regeneration (idempotency guard)",
+                "action": "skipped",
+            }, ensure_ascii=False))
+            continue
+
         print(f"[{q['id']}] sources {old} → {new_sources}")
 
         try:
