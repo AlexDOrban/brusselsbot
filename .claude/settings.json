@@ -36,7 +36,17 @@
       "Bash(venv/bin/python scripts/find_chunks_for_question.py)",
       "Bash(venv/bin/python scripts/apply_source_fixes.py)",
       "Bash(git check-ignore *)",
-      "Bash(venv/bin/python -c \"import json; json.load\\(open\\('.claude/settings.json'\\)\\); json.load\\(open\\('.claude/settings.local.json'\\)\\); print\\('both valid JSON'\\)\")"
+      "Bash(venv/bin/python -c \"import json; json.load\\(open\\('.claude/settings.json'\\)\\); json.load\\(open\\('.claude/settings.local.json'\\)\\); print\\('both valid JSON'\\)\")",
+      "Bash(venv/bin/pip index *)",
+      "Bash(venv/bin/python src/generate_decision_n50.py)",
+      "Bash(git push *)",
+      "Bash(venv/bin/pytest -v)",
+      "Bash(venv/bin/python src/benchmark.py --help)",
+      "Bash(git rm *)",
+      "Bash(venv/bin/python src/generate_decision.py --help)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
     ]
   }
 }
