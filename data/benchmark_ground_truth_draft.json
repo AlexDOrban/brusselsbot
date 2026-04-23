@@ -32,7 +32,7 @@
         "chunk_39",
         "chunk_45"
       ],
-      "ground_truth_answer_draft": "L'entretien et le nettoyage des trottoirs, passages et accotements bordant un immeuble incombent solidairement au propriétaire, copropriétaire, à tout titulaire d'un droit réel sur l'immeuble, au locataire, au concierge, au portier, au gardien ainsi qu'aux personnes chargées de l'entretien quotidien des lieux (Article 22, Règlement de police). Cette obligation couvre notamment le ramassage des feuilles mortes, le balayage et le déneigement/déverglaçage afin d'assurer un passage sûr pour les piétons (Article 24, Règlement de police). À défaut, le nettoyage peut être exécuté d'office par l'autorité compétente aux frais du propriétaire ou de l'occupant (Article 22, Règlement de police).",
+      "ground_truth_answer_draft": "L'entretien et le maintien en bon état de propreté des trottoirs bordant un immeuble incombent solidairement au propriétaire, au copropriétaire, à tout titulaire d'un droit réel sur l'immeuble, au locataire, au concierge, au portier, au gardien ainsi qu'aux personnes chargées de l'entretien quotidien des lieux (Article 22, Police Regulations). Cette obligation couvre notamment le balayage, le ramassage des feuilles mortes et le déneigement/déglaçage afin d'assurer la sécurité des piétons (Article 24, Police Regulations). En cas de manquement, le nettoyage peut être effectué par l'autorité compétente aux frais du ou des propriétaires ou occupants (Article 22, Police Regulations).",
       "error": null
     },
     {
@@ -43,7 +43,7 @@
       "expected_sources": [
         "chunk_64"
       ],
-      "ground_truth_answer_draft": "Non, sauf autorisation de l'autorité compétente, il est interdit de faire du feu en extérieur en dehors des immeubles bâtis, y compris pour détruire par combustion des déchets verts ou ménagers organiques (Article 33, §2, Police Regulations). Seuls les barbecues sont autorisés dans les jardins privés, à condition d'utiliser des fourneaux fixes ou mobiles adaptés, de ne pas représenter un risque pour la sécurité et de ne pas incommoder le voisinage (Article 33, §3, Police Regulations).",
+      "ground_truth_answer_draft": "En principe, il est interdit de faire du feu en extérieur, en dehors des immeubles bâtis, sauf autorisation de l'autorité compétente (Article 33, §2, Règlement de police). De plus, il est interdit d'incommoder le voisinage par des fumées, odeurs ou suie (Article 33, §1). Les barbecues restent toutefois autorisés dans les jardins privés, à condition d'utiliser des fourneaux fixes ou mobiles adaptés, sans risque pour la sécurité ni nuisance pour le voisinage (Article 33, §3).",
       "error": null
     },
     {
@@ -173,7 +173,7 @@
       "expected_sources": [
         "chunk_161"
       ],
-      "ground_truth_answer_draft": "Op met sneeuw of ijzel bedekte trottoirs moet het voetpad volledig of over twee derde van de breedte (met een minimum van 1,50 meter) geruimd of slipvrij gemaakt worden om een veilige doorgang voor voetgangers te garanderen. De sneeuw moet op en aan de rand van het voetpad worden gelegd en mag niet op de rijweg worden gegooid (Artikel 81, Politieverordening).",
+      "ground_truth_answer_draft": "Het voetpad voor uw woning moet volledig of over twee derde van de breedte (met een minimum van 1,50 meter) geruimd of slipvrij gemaakt worden wanneer het bedekt is met dode bladeren, sneeuw of ijzel, zodat voetgangers veilig kunnen passeren. De sneeuw moet op of aan de rand van het voetpad worden gelegd en mag niet op de rijweg worden gegooid (Artikel 81, Politieverordening).",
       "error": null
     },
     {
@@ -204,7 +204,7 @@
       "expected_sources": [
         "chunk_55"
       ],
-      "ground_truth_answer_draft": "Huisvuilzakken mogen pas worden buitengezet volgens de voorschriften van het Agentschap Net Brussel of een andere erkende instelling, die het tijdstip, de plaats en het type recipiënt bepalen (Artikel 28, Politieverordening). De zakken of recipiënten moeten afgesloten zijn zodat ze geen hinder, vervuiling of dieren aantrekken. Indien het afval niet op het geplande tijdstip wordt opgehaald, moet u het terug binnenhalen en/of binnen 24 uur de reinheidsdienst contacteren (Artikel 28, Politieverordening).",
+      "ground_truth_answer_draft": "Huisvuilzakken mogen enkel buitengezet worden volgens de voorschriften van het Agentschap Net Brussel of een andere erkende instelling, die het tijdstip, de plaats en het type recipiënt bepalen (Artikel 28, Politieverordening). De zakken moeten goed afgesloten zijn zodat ze geen hinder, vervuiling of aantrekking van dieren veroorzaken. Als het afval niet op het geplande tijdstip wordt opgehaald, moet u het terug binnenhalen en/of binnen 24 uur contact opnemen met de reinheidsdienst (Artikel 28, Politieverordening).",
       "error": null
     },
     {
@@ -472,7 +472,7 @@
         "chunk_161",
         "chunk_7"
       ],
-      "ground_truth_answer_draft": "De bewoners (of gebruikers van het pand) moeten met bladeren, sneeuw of ijzel bedekte trottoirs volledig of over twee derde van de breedte — met een minimum van 1,50 meter — ruimen of slipvrij maken, waarbij de sneeuw aan de rand van het voetpad wordt gelegd en niet op de rijweg mag worden gegooid (Artikel 81, Politieverordening). Bij niet-naleving kan een administratieve geldboete worden opgelegd van maximaal 500 euro voor meerderjarigen of 175 euro voor minderjarigen, en moet de overtreder de situatie onmiddellijk regulariseren; anders laat de bevoegde overheid dit uitvoeren op kosten en risico van de overtreder (Artikel 4, Politieverordening).",
+      "ground_truth_answer_draft": "De bewoner of gebruiker moet het trottoir voor zijn woning volledig of over twee derde van de breedte (met een minimum van 1,50 meter) sneeuw- en ijzelvrij maken; de sneeuw moet op of aan de rand van het voetpad worden gelegd en mag niet op de rijweg worden gegooid (Artikel 81, Politieverordening). Bij niet-naleving kan een administratieve geldboete van maximaal 500 euro (of 175 euro voor minderjarigen) worden opgelegd, en moet de overtreder de situatie onmiddellijk regulariseren, anders kan de bevoegde overheid dit doen op kosten en risico van de overtreder (Artikel 4, Politieverordening).",
       "error": null
     },
     {
@@ -510,7 +510,7 @@
         "chunk_108",
         "chunk_106"
       ],
-      "ground_truth_answer_draft": "Installing a crane on public space requires prior authorisation from the competent authority, without prejudice to urban planning, environmental and labour protection rules (Article 54, Police Regulations). Before use, a copy of the verification report from an approved body must be sent to the authority at least three weeks before (re)assembly, along with a site plan showing the crane's characteristics, footprint and jib rotation radius (Article 54, Police Regulations). The crane must have a stable base to prevent tipping, be anchored or integrated into the building as it rises, and users must ensure stability during slewing movements (Article 54, Police Regulations). Additionally, privative occupation of public space is generally prohibited without authorisation (Article 55, Police Regulations), and the contractor must hold civil liability insurance, submit contact details of responsible personnel to the nearest police station, secure the base against unauthorised climbing, and remove the crane within eight days after works end (Article 55, Police Regulations).",
+      "ground_truth_answer_draft": "Setting up a crane on public space requires prior authorisation from the competent authority, without prejudice to urban planning, environmental and labour protection rules (Article 54, Police Regulations). Before commissioning, you must send a verification report by an approved body to the authority at least three weeks before (dis)assembly, and submit a site plan showing the crane's characteristics, footprint and jib radius (Article 54, Police Regulations). The crane must have a stable base to prevent tipping, be anchored or integrated into the building as it rises, and users must ensure stability during slewing movements (Article 54, Police Regulations). You must also provide proof of civil liability insurance, file a 24/7 contact list at the nearest police station, install a device preventing unauthorised climbing, and remove the crane within eight days after the works end (Article 55, Police Regulations).",
       "error": null
     },
     {
@@ -545,7 +545,7 @@
         "chunk_64",
         "chunk_149"
       ],
-      "ground_truth_answer_draft": "Les barbecues ne sont autorisés que dans les cours, jardins et terrasses privés, à condition d'utiliser des fourneaux fixes ou mobiles adaptés, de ne pas représenter un risque pour la sécurité et de ne pas incommoder le voisinage (Article 33, §3, Police Regulations). Il est par ailleurs interdit d'incommoder le voisinage par des fumées, odeurs, suie ou émanations quelconques (Article 33, §1, Police Regulations), et les barbecues sont interdits sur l'espace public sauf autorisation (Article 33, §4, Police Regulations). Le règlement ne vise pas explicitement les balcons, mais un barbecue sur un balcon ne serait admissible que s'il respecte ces conditions, notamment l'absence de gêne pour le voisinage.",
+      "ground_truth_answer_draft": "Les barbecues ne sont autorisés que dans les cours, jardins et terrasses privés, à condition d'utiliser des fourneaux fixes ou mobiles adaptés à la configuration des lieux, de ne pas représenter un risque pour la sécurité et de ne pas incommoder le voisinage (Article 33, §3, Règlement de police). Il est par ailleurs interdit d'incommoder le voisinage par des fumées, odeurs, suie ou émanations quelconques (Article 33, §1, Règlement de police). Les barbecues sont interdits sur l'espace public sauf autorisation de l'autorité compétente (Article 33, §4, Règlement de police).",
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "expected_sources": [
         "chunk_103"
       ],
-      "ground_truth_answer_draft": "Op het grondgebied van de stad Brussel en Elsene is het verboden voorbijgangers op de openbare weg aan te klampen buiten schouwburgen, concertzalen, sportplaatsen of ontspanningsplaatsen om hen toegangskaarten te koop aan te bieden (Artikel 53, Politieverordening). Bovendien zijn verkoop en verspreiding, behoudens specifieke toelating van de bevoegde overheid, volledig verboden in een aantal zones: de neutrale zone, de door UNESCO beschermde erfgoedzone rond de Grote Markt, het Congresplein, Poelaertplein, Koningsplein en Onze-Lieve-Vrouw-Voorplein (en 50 meter rondom), op minder dan 50 meter van werkloosheidskantoren, onderwijsinstellingen, eredienstplaatsen en kazernes, in de zone rond het Koning Boudewijnstadion en het Tentoonstellingspark tijdens evenementen, en op de Esplanade Solidarnosc (Artikel 53, Politieverordening).",
+      "ground_truth_answer_draft": "In Brussel is het verboden om voorbijgangers op de openbare weg aan te klampen buiten zalen voor voorstellingen, concerten, sportevenementen of vermakelijkheden om hen toegangsbiljetten te koop aan te bieden of aan te geven waar ze die kunnen verkrijgen (Artikel 53, Politieverordening). Daarnaast zijn op het grondgebied van Brussel-Stad en Elsene verkoop en verspreiding, behoudens specifieke toelating, volledig verboden in onder meer de neutrale zone, de UNESCO-erfgoedzone rond de Grote Markt, het Congresplein, Poelaertplein, Koningsplein en Onze-Lieve-Vrouw-Voorplein (met 50 meter omtrek), binnen 50 meter van werkloosheidskantoren, onderwijsinstellingen, eredienstplaatsen en kazernes, in de zone rond het Koning Boudewijnstadion en Tentoonstellingspark tijdens evenementen, en op de Esplanade Solidarnosc (Artikel 53, Politieverordening).",
       "error": null
     },
     {
@@ -605,7 +605,7 @@
         "chunk_84",
         "chunk_83"
       ],
-      "ground_truth_answer_draft": "Yes. In Brussels, organising, provoking or taking part in gatherings, demonstrations, riots or processions in public space that may disrupt vehicle traffic or inconvenience users of public space is prohibited without authorisation from the competent authority (Artikel 41, Politieverordening). More broadly, any gathering, demonstration, activity or procession of any kind in public space — or in galleries and passages on private land accessible to the public — requires prior authorisation from the competent authority (Artikel 42, Politieverordening).",
+      "ground_truth_answer_draft": "Yes. In Brussels, organising, provoking or taking part in gatherings, demonstrations, riots or processions in public space that may disrupt traffic or inconvenience users of public space is prohibited without authorisation from the competent authority (Article 41, Police Regulations). More broadly, any gathering, demonstration, activity or procession of any kind in public space — or in galleries and passages on private land accessible to the public — requires prior authorisation from the competent authority (Article 42, Police Regulations).",
       "error": null
     },
     {

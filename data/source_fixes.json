@@ -1,12 +1,34 @@
 {
-  "Q12_trottoir_fr":       ["chunk_39", "chunk_45"],
-  "Q13_feu_fr":            ["chunk_64"],
-  "Q22_voetpad_nl":        ["chunk_161"],
-  "Q23_werf_nl":           ["chunk_49", "chunk_131"],
-  "Q25_afvalzak_nl":       ["chunk_55"],
-  "Q39_cleaning_snow_nl":  ["chunk_161", "chunk_7"],
-  "Q42_crane_and_sidewalk_en": ["chunk_108", "chunk_106"],
-  "Q44_fire_and_smoke_fr": ["chunk_64", "chunk_149"],
-  "Q47_nl_to_fr":          ["chunk_103"],
-  "Q49_en_to_nl":          ["chunk_84", "chunk_83"]
+  "Q12_trottoir_fr": [
+    "chunk_39",
+    "chunk_45"
+  ],
+  "Q13_feu_fr": [
+    "chunk_64"
+  ],
+  "Q22_voetpad_nl": [
+    "chunk_161"
+  ],
+  "Q25_afvalzak_nl": [
+    "chunk_55"
+  ],
+  "Q39_cleaning_snow_nl": [
+    "chunk_161",
+    "chunk_7"
+  ],
+  "Q42_crane_and_sidewalk_en": [
+    "chunk_108",
+    "chunk_106"
+  ],
+  "Q44_fire_and_smoke_fr": [
+    "chunk_64",
+    "chunk_149"
+  ],
+  "Q47_nl_to_fr": [
+    "chunk_103"
+  ],
+  "Q49_en_to_nl": [
+    "chunk_84",
+    "chunk_83"
+  ]
 }
