@@ -1,0 +1,1197 @@
+{
+  "config": "C",
+  "hybrid": false,
+  "rerank": false,
+  "n_questions": 50,
+  "aggregate": {
+    "hit_at_1": 0.5348837209302325,
+    "hit_at_3": 0.7674418604651163,
+    "hit_at_5": 0.8604651162790697,
+    "mrr": 0.6705426356589147,
+    "n_in_scope_evaluated": 43,
+    "n_oos_correctly_caveated": 1,
+    "n_oos_total": 7
+  },
+  "per_category": {
+    "in_scope_fr": {
+      "n": 10,
+      "hit_at_1": 0.5,
+      "hit_at_3": 0.6,
+      "hit_at_5": 0.7,
+      "mrr": 0.5966666666666667
+    },
+    "in_scope_nl": {
+      "n": 8,
+      "hit_at_1": 0.5,
+      "hit_at_3": 0.625,
+      "hit_at_5": 0.75,
+      "mrr": 0.59375
+    },
+    "out_of_scope": {
+      "n": 7,
+      "n_correctly_caveated": 1,
+      "n_incorrectly_answered": 6
+    },
+    "in_scope_en": {
+      "n": 10,
+      "hit_at_1": 0.7,
+      "hit_at_3": 0.8,
+      "hit_at_5": 0.9,
+      "mrr": 0.775
+    },
+    "multi_hop": {
+      "n": 10,
+      "hit_at_1": 0.4,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.6666666666666667
+    },
+    "cross_lingual": {
+      "n": 5,
+      "hit_at_1": 0.6,
+      "hit_at_3": 0.8,
+      "hit_at_5": 1.0,
+      "mrr": 0.74
+    }
+  },
+  "per_question": [
+    {
+      "question_id": "Q6_grue_fr",
+      "question_text": "Quelles sont les règles pour l'installation d'une grue?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_106",
+        "chunk_108",
+        "chunk_107",
+        "chunk_115",
+        "chunk_176"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_106"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q11_alarme_fr",
+      "question_text": "Quelles sont les obligations pour les systèmes d'alarme sonores à Bruxelles?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_192",
+        "chunk_193",
+        "chunk_187",
+        "chunk_191",
+        "chunk_126"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_192",
+        "chunk_187"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q12_trottoir_fr",
+      "question_text": "Qui est responsable du nettoyage du trottoir devant mon immeuble?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_39",
+        "chunk_45",
+        "chunk_162",
+        "chunk_158",
+        "chunk_32"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_39",
+        "chunk_45"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q13_feu_fr",
+      "question_text": "Est-il permis d'allumer un feu ouvert dans son jardin?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_65",
+        "chunk_82",
+        "chunk_203",
+        "chunk_196",
+        "chunk_64"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_64"
+      ],
+      "first_gold_rank": 5,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "question_id": "Q14_chantier_fr",
+      "question_text": "Quelles autorisations sont nécessaires pour un chantier sur la voie publique?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_125",
+        "chunk_86",
+        "chunk_119",
+        "chunk_50",
+        "chunk_81"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_108",
+        "chunk_37"
+      ],
+      "first_gold_rank": 10,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "question_id": "Q15_demenage_fr",
+      "question_text": "Quelles sont les règles pour un déménagement à Bruxelles?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_54",
+        "chunk_2",
+        "chunk_150",
+        "chunk_57",
+        "chunk_55"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_124"
+      ],
+      "first_gold_rank": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "Q16_chien_fr",
+      "question_text": "Que dois-je faire des excréments de mon chien dans l'espace public?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_220",
+        "chunk_229",
+        "chunk_27",
+        "chunk_26",
+        "chunk_67"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_226"
+      ],
+      "first_gold_rank": 6,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "question_id": "Q17_deposantclandestin_fr",
+      "question_text": "Quelle sanction pour un dépôt clandestin de déchets?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_48",
+        "chunk_26",
+        "chunk_57",
+        "chunk_56",
+        "chunk_50"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_48",
+        "chunk_26",
+        "chunk_5"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q18_affichage_fr",
+      "question_text": "Puis-je coller des affiches sur un mur public?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_74",
+        "chunk_75",
+        "chunk_76",
+        "chunk_114",
+        "chunk_77"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_74",
+        "chunk_75",
+        "chunk_78"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q19_taxi_fr",
+      "question_text": "Quelles règles s'appliquent au transport de personnes non autorisé sur la voie publique?",
+      "category": "in_scope_fr",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_86",
+        "chunk_91",
+        "chunk_110",
+        "chunk_81",
+        "chunk_80"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_91"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q2_muziek_nl",
+      "question_text": "Mag ik 's nachts muziek maken op straat?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_182",
+        "chunk_177",
+        "chunk_99",
+        "chunk_188",
+        "chunk_97"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_177"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q3_sluikstort_nl",
+      "question_text": "Welke boete riskeer ik voor sluikstort?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_7",
+        "chunk_243",
+        "chunk_111",
+        "chunk_87",
+        "chunk_116"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_49",
+        "chunk_29",
+        "chunk_7",
+        "chunk_58"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "sluikstort_top5": true
+    },
+    {
+      "question_id": "Q20_alarm_nl",
+      "question_text": "Wat zijn de regels voor alarmsystemen op gebouwen?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_193",
+        "chunk_192",
+        "chunk_191",
+        "chunk_126",
+        "chunk_153"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_193",
+        "chunk_191"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q21_verhuizing_nl",
+      "question_text": "Welke toestemming heb ik nodig voor een verhuizing?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_205",
+        "chunk_171",
+        "chunk_129",
+        "chunk_130",
+        "chunk_111"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_127"
+      ],
+      "first_gold_rank": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "Q22_voetpad_nl",
+      "question_text": "Wie moet het voetpad voor mijn woning sneeuwvrij houden?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_161",
+        "chunk_165",
+        "chunk_158",
+        "chunk_166",
+        "chunk_45"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_161"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q23_werf_nl",
+      "question_text": "Welke regels gelden voor een bouwwerf op de openbare weg?",
+      "category": "out_of_scope",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_88",
+        "chunk_49",
+        "chunk_131",
+        "chunk_1",
+        "chunk_127"
+      ],
+      "ground_truth_chunk_ids": [],
+      "first_gold_rank": null,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "correctly_caveated": false
+    },
+    {
+      "question_id": "Q24_hond_nl",
+      "question_text": "Mag mijn hond loslopen in een park in Brussel?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_221",
+        "chunk_237",
+        "chunk_226",
+        "chunk_223",
+        "chunk_229"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_223"
+      ],
+      "first_gold_rank": 4,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "question_id": "Q25_afvalzak_nl",
+      "question_text": "Wanneer mag ik mijn huisvuilzak buiten zetten?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_55",
+        "chunk_61",
+        "chunk_57",
+        "chunk_58",
+        "chunk_41"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_55"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q26_gezondheid_nl",
+      "question_text": "Kan de gemeente een ongezonde woning sluiten?",
+      "category": "out_of_scope",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_49",
+        "chunk_39",
+        "chunk_178",
+        "chunk_35",
+        "chunk_154"
+      ],
+      "ground_truth_chunk_ids": [],
+      "first_gold_rank": null,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "correctly_caveated": false
+    },
+    {
+      "question_id": "Q27_vuur_nl",
+      "question_text": "Mag ik bladeren verbranden in mijn tuin?",
+      "category": "in_scope_nl",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_65",
+        "chunk_46",
+        "chunk_208",
+        "chunk_122",
+        "chunk_166"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_85"
+      ],
+      "first_gold_rank": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "Q1_noise_en",
+      "question_text": "What are the rules about noise at night in Brussels?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_174",
+        "chunk_177",
+        "chunk_2",
+        "chunk_103",
+        "chunk_244"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_174",
+        "chunk_177"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q4_lez_social",
+      "question_text": "How has the Brussels LEZ affected low-income households?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_249",
+        "chunk_252",
+        "chunk_247",
+        "chunk_255",
+        "chunk_246"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q5_bruxellair",
+      "question_text": "What is the Bruxell'Air bonus?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_249",
+        "chunk_250",
+        "chunk_244",
+        "chunk_254",
+        "chunk_246"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_249",
+        "chunk_250"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q8_ev_fleet",
+      "question_text": "What electric vehicle incentives are available for business fleets?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_256",
+        "chunk_262",
+        "chunk_259",
+        "chunk_258",
+        "chunk_260"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_256",
+        "chunk_257",
+        "chunk_258",
+        "chunk_259",
+        "chunk_260",
+        "chunk_261",
+        "chunk_262"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q10_alarm",
+      "question_text": "Can my neighbour's alarm ring all night?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_192",
+        "chunk_187",
+        "chunk_193",
+        "chunk_191",
+        "chunk_174"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_192",
+        "chunk_193"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q7_trash_sidewalk",
+      "question_text": "Can I put a trash container on the sidewalk?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_56",
+        "chunk_57",
+        "chunk_58",
+        "chunk_54",
+        "chunk_36"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_54",
+        "chunk_55",
+        "chunk_56",
+        "chunk_57"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q28_crane_en",
+      "question_text": "What permits do I need to install a crane on a construction site in Brussels?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_108",
+        "chunk_107",
+        "chunk_106",
+        "chunk_111",
+        "chunk_135"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_106",
+        "chunk_107"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q29_fireworks_en",
+      "question_text": "Are fireworks allowed in Brussels?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_103",
+        "chunk_155",
+        "chunk_150",
+        "chunk_85",
+        "chunk_65"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_82",
+        "chunk_85"
+      ],
+      "first_gold_rank": 4,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "question_id": "Q30_lez_enforcement",
+      "question_text": "How is the Low Emission Zone enforced in Brussels?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_255",
+        "chunk_246",
+        "chunk_245",
+        "chunk_244",
+        "chunk_247"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q31_lp_modalshift",
+      "question_text": "What does the LeasePlan whitepaper say about modal shift in Belgium?",
+      "category": "in_scope_en",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_247",
+        "chunk_252",
+        "chunk_251",
+        "chunk_250",
+        "chunk_246"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_256",
+        "chunk_257",
+        "chunk_258",
+        "chunk_259",
+        "chunk_260",
+        "chunk_261",
+        "chunk_262"
+      ],
+      "first_gold_rank": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "Q9_e40_oos",
+      "question_text": "What is the fine for speeding on the E40 highway?",
+      "category": "out_of_scope",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_7",
+        "chunk_78",
+        "chunk_246",
+        "chunk_79",
+        "chunk_88"
+      ],
+      "ground_truth_chunk_ids": [],
+      "first_gold_rank": null,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "correctly_caveated": true
+    },
+    {
+      "question_id": "Q32_tax_oos",
+      "question_text": "What is the personal income tax rate for Brussels residents?",
+      "category": "out_of_scope",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_244",
+        "chunk_255",
+        "chunk_254",
+        "chunk_250",
+        "chunk_249"
+      ],
+      "ground_truth_chunk_ids": [],
+      "first_gold_rank": null,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "correctly_caveated": false
+    },
+    {
+      "question_id": "Q33_parking_oos",
+      "question_text": "How much does a Brussels resident parking permit cost per year?",
+      "category": "out_of_scope",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_246",
+        "chunk_244",
+        "chunk_245",
+        "chunk_249",
+        "chunk_250"
+      ],
+      "ground_truth_chunk_ids": [],
+      "first_gold_rank": null,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "correctly_caveated": false
+    },
+    {
+      "question_id": "Q34_eu_emissions_oos",
+      "question_text": "What are the EU Euro 7 emission standards?",
+      "category": "out_of_scope",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_246",
+        "chunk_247",
+        "chunk_255",
+        "chunk_248",
+        "chunk_249"
+      ],
+      "ground_truth_chunk_ids": [],
+      "first_gold_rank": null,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "correctly_caveated": false
+    },
+    {
+      "question_id": "Q35_customs_oos",
+      "question_text": "What documents do I need to import a car from Germany to Belgium?",
+      "category": "out_of_scope",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_245",
+        "chunk_246",
+        "chunk_255",
+        "chunk_250",
+        "chunk_247"
+      ],
+      "ground_truth_chunk_ids": [],
+      "first_gold_rank": null,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "correctly_caveated": false
+    },
+    {
+      "question_id": "Q36_noise_and_construction_fr",
+      "question_text": "Puis-je faire des travaux bruyants dans mon jardin un dimanche matin?",
+      "category": "multi_hop",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_185",
+        "chunk_174",
+        "chunk_203",
+        "chunk_184",
+        "chunk_195"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_174",
+        "chunk_180",
+        "chunk_106"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q37_dog_and_dumping_fr",
+      "question_text": "Quelle est la différence entre abandonner un déchet et laisser des excréments de chien?",
+      "category": "multi_hop",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_67",
+        "chunk_220",
+        "chunk_226",
+        "chunk_26",
+        "chunk_229"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_48",
+        "chunk_226",
+        "chunk_5"
+      ],
+      "first_gold_rank": 3,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "question_id": "Q38_party_noise_sanction_fr",
+      "question_text": "Si j'organise une fête bruyante, quelle sanction je risque et à quelle heure dois-je arrêter?",
+      "category": "multi_hop",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_150",
+        "chunk_5",
+        "chunk_180",
+        "chunk_175",
+        "chunk_155"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_174",
+        "chunk_5",
+        "chunk_180"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q39_cleaning_snow_nl",
+      "question_text": "Wie moet het voetpad sneeuwvrij maken en wat is de sanctie bij niet-naleving?",
+      "category": "multi_hop",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_161",
+        "chunk_165",
+        "chunk_158",
+        "chunk_166",
+        "chunk_167"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_161",
+        "chunk_7"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q40_alarm_and_noise_nl",
+      "question_text": "Wat zijn de regels voor alarmsystemen, en gelden de nachtelijke geluidsregels ook voor alarmen?",
+      "category": "multi_hop",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_193",
+        "chunk_191",
+        "chunk_177",
+        "chunk_182",
+        "chunk_192"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_193",
+        "chunk_177",
+        "chunk_191"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q41_waste_and_moving_nl",
+      "question_text": "Bij een verhuizing: waar mag ik het afval laten staan en welke toestemming heb ik nodig?",
+      "category": "multi_hop",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_58",
+        "chunk_57",
+        "chunk_55",
+        "chunk_59",
+        "chunk_61"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_127",
+        "chunk_55",
+        "chunk_29"
+      ],
+      "first_gold_rank": 3,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "question_id": "Q42_crane_and_sidewalk_en",
+      "question_text": "If I set up a crane on the sidewalk for a move, which rules do I need to follow?",
+      "category": "multi_hop",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_108",
+        "chunk_106",
+        "chunk_107",
+        "chunk_111",
+        "chunk_157"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_108",
+        "chunk_106"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q43_sanctions_lez_en",
+      "question_text": "What sanctions apply if I drive a non-compliant vehicle in the Brussels LEZ, and how does this compare to police regulation fines?",
+      "category": "multi_hop",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_246",
+        "chunk_245",
+        "chunk_247",
+        "chunk_255",
+        "chunk_249"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255",
+        "chunk_5"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q44_fire_and_smoke_fr",
+      "question_text": "Puis-je faire un barbecue sur mon balcon, et quelles sont les règles sur la fumée?",
+      "category": "multi_hop",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_65",
+        "chunk_64",
+        "chunk_149",
+        "chunk_114",
+        "chunk_82"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_64",
+        "chunk_149"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q45_dog_park_sanction_nl",
+      "question_text": "Mag mijn hond loslopen in het park, en wat riskeer ik als hij zijn behoefte doet zonder dat ik opruim?",
+      "category": "multi_hop",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_226",
+        "chunk_229",
+        "chunk_223",
+        "chunk_237",
+        "chunk_221"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_223",
+        "chunk_229",
+        "chunk_7"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q46_fr_to_nl",
+      "question_text": "Quelles sont les règles bruxelloises sur le bruit nocturne? (répondre en français mais les sources sont en néerlandais)",
+      "category": "cross_lingual",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_174",
+        "chunk_177",
+        "chunk_2",
+        "chunk_103",
+        "chunk_182"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_177",
+        "chunk_182"
+      ],
+      "first_gold_rank": 2,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q47_nl_to_fr",
+      "question_text": "Welke Brusselse regels gelden voor straatverkopen?",
+      "category": "cross_lingual",
+      "language": "nl",
+      "retrieved_chunk_ids": [
+        "chunk_103",
+        "chunk_2",
+        "chunk_57",
+        "chunk_111",
+        "chunk_117"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_103"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q48_en_to_fr",
+      "question_text": "What are the Brussels rules for installing scaffolding on a construction site?",
+      "category": "cross_lingual",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_108",
+        "chunk_106",
+        "chunk_107",
+        "chunk_170",
+        "chunk_160"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_106",
+        "chunk_108"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q49_en_to_nl",
+      "question_text": "Are there Brussels rules about holding a public demonstration?",
+      "category": "cross_lingual",
+      "language": "en",
+      "retrieved_chunk_ids": [
+        "chunk_103",
+        "chunk_150",
+        "chunk_81",
+        "chunk_2",
+        "chunk_84"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_84",
+        "chunk_83"
+      ],
+      "first_gold_rank": 5,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "question_id": "Q50_fr_to_en_ieep",
+      "question_text": "Comment la zone de basses émissions a-t-elle affecté les ménages modestes à Bruxelles?",
+      "category": "cross_lingual",
+      "language": "fr",
+      "retrieved_chunk_ids": [
+        "chunk_254",
+        "chunk_244",
+        "chunk_249",
+        "chunk_251",
+        "chunk_255"
+      ],
+      "ground_truth_chunk_ids": [
+        "chunk_244",
+        "chunk_245",
+        "chunk_246",
+        "chunk_247",
+        "chunk_248",
+        "chunk_249",
+        "chunk_250",
+        "chunk_251",
+        "chunk_252",
+        "chunk_253",
+        "chunk_254",
+        "chunk_255"
+      ],
+      "first_gold_rank": 1,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}
